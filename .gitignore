@@ -1,0 +1,24 @@
+# Built distribution bundles + compiled player binaries.
+# Regenerate with tools/build_dist.py + tools/build_all.sh (8.1 GB of it is
+# dist/2026.11.03/base.tar.gz, so this is excluded rather than committed).
+dist/*
+!dist/iam-publisher-policy.json
+# compiled launcher binary (go build -o pzpack .)
+/pzpack
+*.exe
+# noise
+__pycache__/
+*.pyc
+.DS_Store
+
+# project wiki vault is shared from pz-mod-validation; keep the symlink out of git
+.llm-wiki
+
+# local tooling state, research notes and caches: not part of the launcher
+.pi/
+.agents/
+.research/
+.ruff_cache/
+research/
+skills-lock.json
+*.bak

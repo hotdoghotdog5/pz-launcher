@@ -1,0 +1,6490 @@
+{
+ "schema": 1,
+ "name": "PZ Server Modpack",
+ "version": "2026.11.11",
+ "game_build": "42.22.2",
+ "base_bytes": 10008266243,
+ "client_bytes": 598666191,
+ "profiles": {
+  "lite": {
+   "label": "Compatible - stubs the Viewpoint/ZombieBuddy layer (joins the same server, no visuals)",
+   "layers": [
+    "base",
+    "client"
+   ],
+   "approx_bytes": 10008266243,
+   "stub_layer": "client"
+  },
+  "full": {
+   "label": "Full - real Viewpoint + ZombieBuddy visual layer",
+   "layers": [
+    "base",
+    "client"
+   ],
+   "approx_bytes": 10606932434
+  }
+ },
+ "load_order": [
+  "1962761540",
+  "2142622992",
+  "2290459371",
+  "2447729538",
+  "2463184726",
+  "2544353492",
+  "2584112711",
+  "2686624983",
+  "2713921292",
+  "2714198296",
+  "2732294885",
+  "2757712197",
+  "2769706949",
+  "2788256295",
+  "2812326159",
+  "3763874285",
+  "2866258937",
+  "2868828908",
+  "2879745353",
+  "2934155949",
+  "2956146279",
+  "2999183635",
+  "3077900375",
+  "2896041179",
+  "2366717227",
+  "3101668503",
+  "3153010942",
+  "3162566044",
+  "3171167894",
+  "2409333430",
+  "2566953935",
+  "2618213077",
+  "2625625421",
+  "2642541073",
+  "2799152995",
+  "2805630347",
+  "2846036306",
+  "2870394916",
+  "2873290424",
+  "2886832257",
+  "2886832936",
+  "2886833398",
+  "2900580391",
+  "2913633066",
+  "2932547723",
+  "2932549988",
+  "2942793445",
+  "2952802178",
+  "2962175696",
+  "2969343830",
+  "2971246021",
+  "2991201484",
+  "3001592312",
+  "3005903549",
+  "3026723485",
+  "3034636011",
+  "3041122351",
+  "3052360250",
+  "3073430075",
+  "3088951320",
+  "3110911330",
+  "3110913021",
+  "3152529790",
+  "3161951724",
+  "3196180339",
+  "3213391371",
+  "3226885926",
+  "3232993626",
+  "3248388837",
+  "3258343790",
+  "3260240772",
+  "3268487204",
+  "3287727378",
+  "3290232938",
+  "3292659291",
+  "3307376332",
+  "3320947974",
+  "3330403100",
+  "3346905070",
+  "3360392628",
+  "3366300557",
+  "3378285185",
+  "3379334330",
+  "3384377738",
+  "3386906181",
+  "3387957272",
+  "3388468313",
+  "3389605231",
+  "3390760692",
+  "3393080905",
+  "3393821407",
+  "3395171770",
+  "3399320470",
+  "3401134276",
+  "3402516345",
+  "3408740647",
+  "3409143790",
+  "3409287192",
+  "3413150945",
+  "3414634809",
+  "3416833689",
+  "3417502641",
+  "3418061837",
+  "3418252689",
+  "3422220305",
+  "3423660713",
+  "3426448380",
+  "3428008364",
+  "3428715523",
+  "3432006285",
+  "3432928943",
+  "3435796523",
+  "3436537035",
+  "3444499190",
+  "3447272250",
+  "3447775367",
+  "3453175422",
+  "3453676250",
+  "3454414190",
+  "3455296935",
+  "3457064550",
+  "3460812542",
+  "3461263912",
+  "3465040406",
+  "3470422050",
+  "3299457564",
+  "3457969588",
+  "3484263516",
+  "3490370700",
+  "3496507146",
+  "3508537032",
+  "3502080466",
+  "3521263771",
+  "3533994661",
+  "3538602374",
+  "3539691958",
+  "3543229299",
+  "3557111695",
+  "3566868353",
+  "3567084868",
+  "3567695139",
+  "3570250507",
+  "3570485296",
+  "3570973322",
+  "3577100076",
+  "3577903007",
+  "3579640010",
+  "3582960654",
+  "3592777775",
+  "3596827035",
+  "3596903773",
+  "3601417745",
+  "3610005735",
+  "3614034284",
+  "3615135168",
+  "3615422211",
+  "3618557184",
+  "3619862853",
+  "3624971238",
+  "3423424077",
+  "3436499337",
+  "3457132019",
+  "3626823538",
+  "3628736763",
+  "3629835761",
+  "3631989559",
+  "3635591071",
+  "3635856965",
+  "3642935062",
+  "3647735736",
+  "3647736504",
+  "3650112103",
+  "3650168851",
+  "3653092321",
+  "3656190498",
+  "3660235667",
+  "3660382016",
+  "3665548194",
+  "3666137359",
+  "3666180085",
+  "3669451917",
+  "3670063857",
+  "3670064951",
+  "3671176591",
+  "3675740871",
+  "3677017550",
+  "3677910297",
+  "3680633169",
+  "3684254299",
+  "3684808606",
+  "3687394815",
+  "3692027888",
+  "3692043319",
+  "3701820916",
+  "3703948448",
+  "3713220544",
+  "3713977259",
+  "3717099183",
+  "3717902500",
+  "3722064198",
+  "3722134990",
+  "3725311427",
+  "3725497089",
+  "3726526329",
+  "3730833846",
+  "3734639991",
+  "3739173520",
+  "3739256725",
+  "3743371090",
+  "3749026793",
+  "3751364201",
+  "3755185651",
+  "3755993986",
+  "3756687957",
+  "3756938756",
+  "3760471726",
+  "3760534563",
+  "3761077099",
+  "3762355926",
+  "3763470184",
+  "3765077081",
+  "3765079521",
+  "3765670104",
+  "3766571591",
+  "3768745256",
+  "3769335201",
+  "3770890864",
+  "3772269882",
+  "3774789651",
+  "3774826484",
+  "3774841057",
+  "3775549570",
+  "3776182375",
+  "3777237134",
+  "3777731571",
+  "3778511497",
+  "3778915544",
+  "3779164273",
+  "3779315249",
+  "3780688809",
+  "3782587904",
+  "3783433804",
+  "3788113801",
+  "3790089095",
+  "3790257898",
+  "3793289804",
+  "3794379457",
+  "3794429489",
+  "3795414660",
+  "3798469977",
+  "3803984183",
+  "3805029439",
+  "3806164637",
+  "3806944055",
+  "3809306528",
+  "3823866661",
+  "3809762635",
+  "3810302175",
+  "3810988454",
+  "3811256204",
+  "3402491515",
+  "3817413313",
+  "3814398576",
+  "3811344119",
+  "3820965001",
+  "3822854313",
+  "3813194971",
+  "3799596085",
+  "3798146388",
+  "3411888105",
+  "3431256608",
+  "3475347500",
+  "3538760023",
+  "3635394848",
+  "3736813592",
+  "3827271522",
+  "3814073243",
+  "3813053718",
+  "3824965917",
+  "3818189653",
+  "3820183693",
+  "3816324722",
+  "3811696048",
+  "3815019204",
+  "3821525282",
+  "3639628777",
+  "3828755546",
+  "3818700431",
+  "2313387159",
+  "2950902979",
+  "2650547917",
+  "2883755057",
+  "2940354599",
+  "3119788162",
+  "3306168142",
+  "3006882690",
+  "3576056135",
+  "3754850813",
+  "3754850359",
+  "3754848589",
+  "2872461779",
+  "3772052709",
+  "3392001801",
+  "3558839307",
+  "2946364542",
+  "3785740658",
+  "2211423190",
+  "3765689485",
+  "CommonSenseReborn"
+ ],
+ "items": [
+  {
+   "workshop_id": "1962761540",
+   "title": "Armored Vests (41/B42)",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ArmoredVestsPATCH",
+     "src": "mods/1962761540/mods/ArmoredVestsPATCH",
+     "mod_id": "ArmoredVestsPatch"
+    },
+    {
+     "name": "ArmoredVestsWORKSHOP",
+     "src": "mods/1962761540/mods/ArmoredVestsWORKSHOP",
+     "mod_id": "ArmoredVests"
+    }
+   ],
+   "bytes": 1142766,
+   "tree_sha256": "4e599a429ac39c6ac6e28034173ec297b1730125d08106aca5ed2449911c7df2",
+   "mod_ids": [
+    "ArmoredVestsPatch",
+    "ArmoredVests"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2142622992",
+   "title": "Repair Any Clothes",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "RepairAnyClothes",
+     "src": "mods/2142622992/mods/RepairAnyClothes",
+     "mod_id": "RepairAnyClothes"
+    }
+   ],
+   "bytes": 57680,
+   "tree_sha256": "96c509f5bef07345531a98db27f7de4bebc82623e1525a497ce502f56e7e23c9",
+   "mod_ids": [
+    "RepairAnyClothes"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2290459371",
+   "title": "Vehicle Doors Hotkey",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "VehicleDoorsHotkey",
+     "src": "mods/2290459371/mods/VehicleDoorsHotkey",
+     "mod_id": "VehicleDoorsHotkey"
+    }
+   ],
+   "bytes": 80136,
+   "tree_sha256": "79857f1565983fd91ad5f833e95e2e4de0bc728006ce5391a2b6aba13048c28b",
+   "mod_ids": [
+    "VehicleDoorsHotkey"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2366717227",
+   "title": "Swap It",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SwapIt",
+     "src": "mods/2366717227/mods/SwapIt",
+     "mod_id": "SwapIt"
+    }
+   ],
+   "bytes": 209762,
+   "tree_sha256": "087c79aa892ca0e18933ae8e893265869a58092730dd87d01efa32c624b865e9",
+   "mod_ids": [
+    "SwapIt"
+   ],
+   "requires": [
+    "chuckleberryfinnalertsystem",
+    "errormagnifier"
+   ]
+  },
+  {
+   "workshop_id": "2409333430",
+   "title": "'91 RANGE ROVER Classic",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "91range",
+     "src": "mods/2409333430/mods/91range",
+     "mod_id": "91range"
+    }
+   ],
+   "bytes": 18928512,
+   "tree_sha256": "5b55329aed0d3d13677ff3db5444b88abc66bc2d94b5be2dac51cfe4709dd206",
+   "mod_ids": [
+    "91range"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2447729538",
+   "title": "Fluffy Hair [B41/B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "FluffyHair",
+     "src": "mods/2447729538/mods/FluffyHair",
+     "mod_id": "FH"
+    }
+   ],
+   "bytes": 9447432,
+   "tree_sha256": "b9cb293b02f49164d06939ee55d2b196035f782bc67f633f5b53a17f3d228a1b",
+   "mod_ids": [
+    "FH"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2463184726",
+   "title": "Spongie's Hair",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Spongie Hair",
+     "src": "mods/2463184726/mods/Spongie Hair",
+     "mod_id": "SpnHair"
+    }
+   ],
+   "bytes": 13969348,
+   "tree_sha256": "8adfb74debc16098e3ae867f847d0c67b7692a959de64bfb13a6431e1c7caf81",
+   "mod_ids": [
+    "SpnHair"
+   ],
+   "requires": [
+    "fh"
+   ]
+  },
+  {
+   "workshop_id": "2544353492",
+   "title": "Has Been Read",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "P4HasBeenRead",
+     "src": "mods/2544353492/mods/P4HasBeenRead",
+     "mod_id": "P4HasBeenRead"
+    }
+   ],
+   "bytes": 1322250,
+   "tree_sha256": "35ec7183a6b1653370cf33aaa889b06f6b3b047a8801f56eb01519010d461f05",
+   "mod_ids": [
+    "P4HasBeenRead"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2566953935",
+   "title": "'86 Oshkosh P19A + Military Trailers",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "86oshkoshP19A",
+     "src": "mods/2566953935/mods/86oshkoshP19A",
+     "mod_id": "86oshkoshP19A"
+    }
+   ],
+   "bytes": 22501937,
+   "tree_sha256": "5571b835d52df1d15c376c700f734a63ca7e0b440a9f306896f15778dd1b8941",
+   "mod_ids": [
+    "86oshkoshP19A"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2584112711",
+   "title": "[B41/B42] Faster Hood Opening",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Faster Hood Opening",
+     "src": "mods/2584112711/mods/Faster Hood Opening",
+     "mod_id": "FasterHoodOpening"
+    }
+   ],
+   "bytes": 50826,
+   "tree_sha256": "5b8f6d3f9bbd3a4132612ae20fdfa555a2214bf0e1c40006fa818e61e22f834b",
+   "mod_ids": [
+    "FasterHoodOpening"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2618213077",
+   "title": "'82 Oshkosh M911 + Military Semi-Trailers",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "82oshkoshM911",
+     "src": "mods/2618213077/mods/82oshkoshM911",
+     "mod_id": "82oshkoshM911"
+    }
+   ],
+   "bytes": 31214161,
+   "tree_sha256": "ffc5ac5a2c8e0a907cac8eeaab065e7ad72dc5ac2f679aba49da6400ecb3dd08",
+   "mod_ids": [
+    "82oshkoshM911"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2625625421",
+   "title": "Containers!",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "isoContainers",
+     "src": "mods/2625625421/mods/isoContainers",
+     "mod_id": "isoContainers"
+    }
+   ],
+   "bytes": 10907100,
+   "tree_sha256": "ff75e54ab60a51d248a498c7f13252b69aa6d7a2709b8253e01a5c526dc09870",
+   "mod_ids": [
+    "isoContainers"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2642541073",
+   "title": "'92 AM General M998 + M101A3 Cargo trailer",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "92amgeneralM998",
+     "src": "mods/2642541073/mods/92amgeneralM998",
+     "mod_id": "92amgeneralM998"
+    },
+    {
+     "name": "92amgeneralM998extra",
+     "src": "mods/2642541073/mods/92amgeneralM998extra",
+     "mod_id": "92amgeneralM998extra"
+    }
+   ],
+   "bytes": 24265913,
+   "tree_sha256": "384d74925d6e36435ea328594234c3825e9f06879090641a26285f6788947838",
+   "mod_ids": [
+    "92amgeneralM998",
+    "92amgeneralM998extra"
+   ],
+   "requires": [
+    "92amgeneralm998",
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2686624983",
+   "title": "Sleep with Friends v2.1",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SleepWithFriends",
+     "src": "mods/2686624983/mods/SleepWithFriends",
+     "mod_id": "SleepWithFriends"
+    }
+   ],
+   "bytes": 869053,
+   "tree_sha256": "847f7de65d0a4c7b400d6d7185ce14c1e415a34f12e4eae26b5600afe22ce231",
+   "mod_ids": [
+    "SleepWithFriends"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2713921292",
+   "title": "Undead Survivor [B41/B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "UndeadSurvivor",
+     "src": "mods/2713921292/mods/UndeadSurvivor",
+     "mod_id": "UndeadSuvivor"
+    }
+   ],
+   "bytes": 17987763,
+   "tree_sha256": "36f01050108852f722c65e7ef30c32fee5c48354bb71771b94adb573d7f8dc5a",
+   "mod_ids": [
+    "UndeadSuvivor"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2714198296",
+   "title": "[B42] I Don't Need A Lighter",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "I Don't Need A Lighter",
+     "src": "mods/2714198296/mods/I Don't Need A Lighter",
+     "mod_id": "NoLighterNeeded"
+    }
+   ],
+   "bytes": 948155,
+   "tree_sha256": "5f12340bae7f82034d1b852580327022a00cb4fd918ba63302fa36994514b7d3",
+   "mod_ids": [
+    "NoLighterNeeded"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2732294885",
+   "title": "Named skill VHS tapes",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Named skill VHS tapes",
+     "src": "mods/2732294885/mods/Named skill VHS tapes",
+     "mod_id": "NamedSkillVHSTapes"
+    }
+   ],
+   "bytes": 629216,
+   "tree_sha256": "47ed1f424658a30e5e47daad83f605151f5fcaa8ae5c9ce9ae8c0e328e653402",
+   "mod_ids": [
+    "NamedSkillVHSTapes"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2757712197",
+   "title": "Vehicle Repair Overhaul",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Vehicle Repair Overhaul",
+     "src": "mods/2757712197/mods/Vehicle Repair Overhaul",
+     "mod_id": "VehicleRepairOverhaul"
+    },
+    {
+     "name": "Vehicle Repair Overhaul - Vehicle Salvage Overhaul",
+     "src": "mods/2757712197/mods/Vehicle Repair Overhaul - Vehicle Salvage Overhaul",
+     "mod_id": "VehicleSalvageOverhaulB42"
+    }
+   ],
+   "bytes": 3393933,
+   "tree_sha256": "2c3bf5d9d77f53dd528cb362afbcf58b481b6f03ee8a1b54256b81cce7368b31",
+   "mod_ids": [
+    "VehicleSalvageOverhaulB42",
+    "VehicleRepairOverhaul"
+   ],
+   "requires": [
+    "vehiclerepairoverhaul"
+   ]
+  },
+  {
+   "workshop_id": "2769706949",
+   "title": "Tidy Up Meister",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "P4TidyUpMeister",
+     "src": "mods/2769706949/mods/P4TidyUpMeister",
+     "mod_id": "P4TidyUpMeister"
+    }
+   ],
+   "bytes": 1342463,
+   "tree_sha256": "64964536fd64bbac72f8c0d2186f92d597f075fbb6db35067fb0faad90ca64fb",
+   "mod_ids": [
+    "P4TidyUpMeister"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2788256295",
+   "title": "Ammo Maker",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "AmmoMaker",
+     "src": "mods/2788256295/mods/AmmoMaker",
+     "mod_id": "ammomaker"
+    }
+   ],
+   "bytes": 15157360,
+   "tree_sha256": "f4e6bad655322a2f006a99b4840d44a5411cb69045c4cf9d38c02ead8f59a24a",
+   "mod_ids": [
+    "ammomaker"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2799152995",
+   "title": "'78 AM General M35 Series Trucks",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "78amgeneralM35A2",
+     "src": "mods/2799152995/mods/78amgeneralM35A2",
+     "mod_id": "78amgeneralM35A2"
+    },
+    {
+     "name": "78amgeneralM35A2extra",
+     "src": "mods/2799152995/mods/78amgeneralM35A2extra",
+     "mod_id": "78amgeneralM35A2extra"
+    },
+    {
+     "name": "78amgeneralM49A2C",
+     "src": "mods/2799152995/mods/78amgeneralM49A2C",
+     "mod_id": "78amgeneralM49A2C"
+    },
+    {
+     "name": "78amgeneralM50A3",
+     "src": "mods/2799152995/mods/78amgeneralM50A3",
+     "mod_id": "78amgeneralM50A3"
+    },
+    {
+     "name": "78amgeneralM62",
+     "src": "mods/2799152995/mods/78amgeneralM62",
+     "mod_id": "78amgeneralM62"
+    }
+   ],
+   "bytes": 34848590,
+   "tree_sha256": "0616660f284913ce792bb5294189357d977039faf31aceeadf0cfce5c37e266f",
+   "mod_ids": [
+    "78amgeneralM35A2extra",
+    "78amgeneralM49A2C",
+    "78amgeneralM62",
+    "78amgeneralM35A2",
+    "78amgeneralM50A3"
+   ],
+   "requires": [
+    "78amgeneralm35a2",
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2805630347",
+   "title": "'84 Mercedes Benz W460",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "84mercW460",
+     "src": "mods/2805630347/mods/84mercW460",
+     "mod_id": "84merc"
+    }
+   ],
+   "bytes": 28081455,
+   "tree_sha256": "b22e235703f9dcece89ac12d867842d87465ed7724d60d196eae061536c4819a",
+   "mod_ids": [
+    "84merc"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2812326159",
+   "title": "Spongie's Open Jackets",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SpongieOpenJackets",
+     "src": "mods/2812326159/mods/SpongieOpenJackets",
+     "mod_id": "SpnOpenCloth"
+    },
+    {
+     "name": "SpongieOpenJackets_Base",
+     "src": "mods/2812326159/mods/SpongieOpenJackets_Base",
+     "mod_id": "SpnOpenClothBase"
+    }
+   ],
+   "bytes": 5032215,
+   "tree_sha256": "131d7838a7ccda1d40a651aa603ea818471bba986c6ce602534c31a6f672b557",
+   "mod_ids": [
+    "SpnOpenCloth",
+    "SpnOpenClothBase"
+   ],
+   "requires": [
+    "spnopenclothbase"
+   ]
+  },
+  {
+   "workshop_id": "3763874285",
+   "title": "[FIX MP] Simple Overhaul: Traits and Occupations 42.20",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SOTOFixMP4219",
+     "src": "mods/3763874285/mods/SOTOFixMP4219",
+     "mod_id": "SOTOFixMP4219"
+    }
+   ],
+   "bytes": 1997367,
+   "tree_sha256": "43ff56cff7608f655d5a247ae3be43adc036ebdc9ebf51752c6b7db7e1aad0bd",
+   "mod_ids": [
+    "SOTOFixMP4219"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2846036306",
+   "title": "'92 NISSAN Skyline GT-R (R32)",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "92nissanGTR",
+     "src": "mods/2846036306/mods/92nissanGTR",
+     "mod_id": "92nissanGTR"
+    }
+   ],
+   "bytes": 19011993,
+   "tree_sha256": "d4ee4bc158726af2d68abc180f90618e076aae663104ce11fa10674f76e563ee",
+   "mod_ids": [
+    "92nissanGTR"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2866258937",
+   "title": "Mini Health Panel",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "MiniHealthPanel",
+     "src": "mods/2866258937/mods/MiniHealthPanel",
+     "mod_id": "MiniHealthPanel"
+    }
+   ],
+   "bytes": 1478735,
+   "tree_sha256": "04273908561e685d9911d9ef575daa8d107de6ff983b71e5ec22d78fbc986fcd",
+   "mod_ids": [
+    "MiniHealthPanel"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2868828908",
+   "title": "Jumpsuit with jacket [B42MP/SP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "JWJ",
+     "src": "mods/2868828908/mods/JWJ",
+     "mod_id": "JWJ"
+    }
+   ],
+   "bytes": 99983,
+   "tree_sha256": "2118cf935e7a25190c8c85436e5ac2de326079b04695b0ba3a8151e0c0051b0d",
+   "mod_ids": [
+    "JWJ"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2870394916",
+   "title": "'86 Ford Econoline E-150 + Pop Culture vans",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "86fordE150",
+     "src": "mods/2870394916/mods/86fordE150",
+     "mod_id": "86fordE150"
+    },
+    {
+     "name": "86fordE150dnd",
+     "src": "mods/2870394916/mods/86fordE150dnd",
+     "mod_id": "86fordE150dnd"
+    },
+    {
+     "name": "86fordE150expanded",
+     "src": "mods/2870394916/mods/86fordE150expanded",
+     "mod_id": "86fordE150expanded"
+    },
+    {
+     "name": "86fordE150mm",
+     "src": "mods/2870394916/mods/86fordE150mm",
+     "mod_id": "86fordE150mm"
+    },
+    {
+     "name": "86fordE150pd",
+     "src": "mods/2870394916/mods/86fordE150pd",
+     "mod_id": "86fordE150pd"
+    }
+   ],
+   "bytes": 56479405,
+   "tree_sha256": "75fa412a65d263233dfaf2d654aa468510ed6d6b9c88ff2851b64a61269f3e9b",
+   "mod_ids": [
+    "86fordE150pd",
+    "86fordE150dnd",
+    "86fordE150expanded",
+    "86fordE150",
+    "86fordE150mm"
+   ],
+   "requires": [
+    "86forde150",
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2873290424",
+   "title": "'70 Dodge Challenger",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "70dodge",
+     "src": "mods/2873290424/mods/70dodge",
+     "mod_id": "70dodge"
+    }
+   ],
+   "bytes": 19081188,
+   "tree_sha256": "834a94c4992541ca271d113b241a34fd5ca021c1acef6bdad6fb63dc7e381578",
+   "mod_ids": [
+    "70dodge"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2879745353",
+   "title": "Melos Tiles for Miles Tilepack",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Melos Tiles for Miles",
+     "src": "mods/2879745353/mods/Melos Tiles for Miles",
+     "mod_id": "melos_tiles_for_miles_pack"
+    }
+   ],
+   "bytes": 1644003964,
+   "tree_sha256": "8f3721ea492441e2cd1d99d7efc62fb084b22f382951424528d5a5af7408ffad",
+   "mod_ids": [
+    "melos_tiles_for_miles_pack"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2886832257",
+   "title": "'82 Jeep J10",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "82jeepJ10",
+     "src": "mods/2886832257/mods/82jeepJ10",
+     "mod_id": "82jeepJ10"
+    },
+    {
+     "name": "82jeepJ10t",
+     "src": "mods/2886832257/mods/82jeepJ10t",
+     "mod_id": "82jeepJ10t"
+    }
+   ],
+   "bytes": 13919312,
+   "tree_sha256": "58de4b302846566c6c26a8ee4292dbe70f1a4c103d558003990d7665834f3ea6",
+   "mod_ids": [
+    "82jeepJ10",
+    "82jeepJ10t"
+   ],
+   "requires": [
+    "82jeepj10",
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2886832936",
+   "title": "'88 Chevrolet S10",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "88chevyS10",
+     "src": "mods/2886832936/mods/88chevyS10",
+     "mod_id": "88chevyS10"
+    }
+   ],
+   "bytes": 9947196,
+   "tree_sha256": "93906c6eac6e7b836aac4dccaa430a7d62ecc0564c2fca966813eec0a5c83dac",
+   "mod_ids": [
+    "88chevyS10"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2886833398",
+   "title": "'89 Ford Bronco",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "89fordBronco",
+     "src": "mods/2886833398/mods/89fordBronco",
+     "mod_id": "89fordBronco"
+    }
+   ],
+   "bytes": 11800716,
+   "tree_sha256": "9616eea407200f98c665dc3aaa570251b07f2993cd89727fd262c2d387525a53",
+   "mod_ids": [
+    "89fordBronco"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2896041179",
+   "title": "errorMagnifier",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "errorMagnifier",
+     "src": "mods/2896041179/mods/errorMagnifier",
+     "mod_id": "errorMagnifier"
+    }
+   ],
+   "bytes": 394032,
+   "tree_sha256": "b6f96f01fc83fc4089c4ddee2867039c7f7749e380b674cbbc2951a592943d47",
+   "mod_ids": [
+    "errorMagnifier"
+   ],
+   "requires": [
+    "chuckleberryfinnalertsystem"
+   ]
+  },
+  {
+   "workshop_id": "2900580391",
+   "title": "'49 Dodge Power Wagon Crew Cab",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "49powerWagon",
+     "src": "mods/2900580391/mods/49powerWagon",
+     "mod_id": "49powerWagon"
+    }
+   ],
+   "bytes": 14310820,
+   "tree_sha256": "d87bd8bf6805742cc379430c64faecc61ba5b606444a5d85ed36df87e42c09fc",
+   "mod_ids": [
+    "49powerWagon"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2913633066",
+   "title": "'70 Plymouth Barracuda",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "70barracuda",
+     "src": "mods/2913633066/mods/70barracuda",
+     "mod_id": "70barracuda"
+    }
+   ],
+   "bytes": 13766828,
+   "tree_sha256": "62a7a012e1527019a4882ec8e86694afdd1bee9638b53c5c9e4bc71ddd34147d",
+   "mod_ids": [
+    "70barracuda"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2932547723",
+   "title": "'93 Lincoln Town Car + Limo",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "93townCar",
+     "src": "mods/2932547723/mods/93townCar",
+     "mod_id": "93townCar"
+    }
+   ],
+   "bytes": 14655212,
+   "tree_sha256": "a1fa1cb0f5ce4fe760566364fb5597a0eccbde6aef90331e9b9c8cc98b60bd4a",
+   "mod_ids": [
+    "93townCar"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2932549988",
+   "title": "'89 Isuzu Trooper",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "89trooper",
+     "src": "mods/2932549988/mods/89trooper",
+     "mod_id": "89trooper"
+    }
+   ],
+   "bytes": 17882719,
+   "tree_sha256": "e017a94c4c27f0d37ec2513b0f0ec5e442053d32797c50c158be8577bec59eaa",
+   "mod_ids": [
+    "89trooper"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2934155949",
+   "title": "Working Vending Machines",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "WorkingVendingMachines",
+     "src": "mods/2934155949/mods/WorkingVendingMachines",
+     "mod_id": "WorkingVending"
+    }
+   ],
+   "bytes": 3671254,
+   "tree_sha256": "be03461a3438e4ae6445b0984b6353d9e4ebb67f3cfc27ac370ed5f4756d8d07",
+   "mod_ids": [
+    "WorkingVending"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2942793445",
+   "title": "'90 Pierce Arrow Pumper and Ladder Trucks",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "90pierceArrow",
+     "src": "mods/2942793445/mods/90pierceArrow",
+     "mod_id": "90pierceArrow"
+    }
+   ],
+   "bytes": 14320704,
+   "tree_sha256": "8f3624d26a421695ae4bd7e0d8b4658988eab0789d042f5b35d778e58ebb4098",
+   "mod_ids": [
+    "90pierceArrow"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2952802178",
+   "title": "'90 Ford F350 Ambulance",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "90fordF350ambulance",
+     "src": "mods/2952802178/mods/90fordF350ambulance",
+     "mod_id": "90fordF350ambulance"
+    }
+   ],
+   "bytes": 10517745,
+   "tree_sha256": "861998f533021d41735a9c70b15062aefe8165063a4a443bd793a4adab210eb1",
+   "mod_ids": [
+    "90fordF350ambulance"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2956146279",
+   "title": "Rain Cleans Blood [B42.20 + MP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "RainCleansBlood",
+     "src": "mods/2956146279/mods/RainCleansBlood",
+     "mod_id": "RainCleansBlood"
+    }
+   ],
+   "bytes": 2315561,
+   "tree_sha256": "f0a822ffb8381bfd7f96c7c8d42f30176481f19daf38cd483c5d570a6cc224bb",
+   "mod_ids": [
+    "RainCleansBlood"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2962175696",
+   "title": "'92 Ford Crown Victoria",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "92fordCVPI",
+     "src": "mods/2962175696/mods/92fordCVPI",
+     "mod_id": "92fordCVPI"
+    }
+   ],
+   "bytes": 20320227,
+   "tree_sha256": "53bac4e938eb4cccdb0a28326a18fdfd3ee3cb34e60c35b6e7b2e90edb4fe1df",
+   "mod_ids": [
+    "92fordCVPI"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2969343830",
+   "title": "'93 Ford CF8000 Elgin Street Sweeper",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "93fordElgin",
+     "src": "mods/2969343830/mods/93fordElgin",
+     "mod_id": "93fordElgin"
+    }
+   ],
+   "bytes": 13467217,
+   "tree_sha256": "0bad3647a3491985fd55872e1225dfaac76fbb739fe24debe0b949e9fa4916b4",
+   "mod_ids": [
+    "93fordElgin"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2971246021",
+   "title": "'99 Ford Crown Victoria Police Interceptor",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "99fordCVPI",
+     "src": "mods/2971246021/mods/99fordCVPI",
+     "mod_id": "99fordCVPI"
+    }
+   ],
+   "bytes": 9881697,
+   "tree_sha256": "d8c53e9447eea8afad0a1dc005326866029139eabbe2400ddc86abef31b665c0",
+   "mod_ids": [
+    "99fordCVPI"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2991201484",
+   "title": "'69 Chevrolet Camaro",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "69camaro",
+     "src": "mods/2991201484/mods/69camaro",
+     "mod_id": "69camaro"
+    }
+   ],
+   "bytes": 19382144,
+   "tree_sha256": "63d0751c409245b64ac75c4cbc6f3d111d2f169372ee1dd8083612e6ce0f9217",
+   "mod_ids": [
+    "69camaro"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "2999183635",
+   "title": " Better Electronics",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "LWBetterElectronics",
+     "src": "mods/2999183635/mods/LWBetterElectronics",
+     "mod_id": "LWBetterElectronics"
+    }
+   ],
+   "bytes": 1486361,
+   "tree_sha256": "c11539134f5a3295addd55e720d0390dbaada36b33c596e6901e29a09716daae",
+   "mod_ids": [
+    "LWBetterElectronics"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3001592312",
+   "title": "'93 Ford Mustang",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "93mustangSSP",
+     "src": "mods/3001592312/mods/93mustangSSP",
+     "mod_id": "93mustangSSP"
+    }
+   ],
+   "bytes": 25462756,
+   "tree_sha256": "6c71121c249b7e2fbabbfbe68a3e422c71965ea111b7fc655fba2e54419c9e19",
+   "mod_ids": [
+    "93mustangSSP"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3005903549",
+   "title": "'63 Volkswagen 1300 Beetle",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "63beetle",
+     "src": "mods/3005903549/mods/63beetle",
+     "mod_id": "63beetle"
+    }
+   ],
+   "bytes": 22436824,
+   "tree_sha256": "70438b8a0708da441b986e594fe9e73e610cd7c70879b4c916d7a3f1e06647f6",
+   "mod_ids": [
+    "63beetle"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3026723485",
+   "title": "'67 Shelby GT500 + Eleanor",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "67gt500",
+     "src": "mods/3026723485/mods/67gt500",
+     "mod_id": "67gt500"
+    }
+   ],
+   "bytes": 18168337,
+   "tree_sha256": "1e3240bb037a1158d37c13746cc5a863f52f532e8cf5b5ddea096f439be6d34d",
+   "mod_ids": [
+    "67gt500"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3034636011",
+   "title": "'89 Dodge Caravan",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "89dodgeCaravan",
+     "src": "mods/3034636011/mods/89dodgeCaravan",
+     "mod_id": "89dodgeCaravan"
+    }
+   ],
+   "bytes": 26675652,
+   "tree_sha256": "a479e84192f12318a7d0a2ec333d00b1ffa95ca9d244a50a5e6f468216d147cd",
+   "mod_ids": [
+    "89dodgeCaravan"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3041122351",
+   "title": "'63 Volkswagen Type 2 Van",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "63Type2Van",
+     "src": "mods/3041122351/mods/63Type2Van",
+     "mod_id": "63Type2Van"
+    }
+   ],
+   "bytes": 27306961,
+   "tree_sha256": "13408cc8a142d4b4020e6bebf045149f243214259d95aa86c00650ca1775b7b0",
+   "mod_ids": [
+    "63Type2Van"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3052360250",
+   "title": "'87 Toyota MR2",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "87toyotaMR2",
+     "src": "mods/3052360250/mods/87toyotaMR2",
+     "mod_id": "87toyotaMR2"
+    }
+   ],
+   "bytes": 10572005,
+   "tree_sha256": "cd22503d7025704102f8b0e37111cc42a8260c699bb89a22fb1047ce054ae660",
+   "mod_ids": [
+    "87toyotaMR2"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3073430075",
+   "title": "'93 Ford F-Series",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "93fordF350",
+     "src": "mods/3073430075/mods/93fordF350",
+     "mod_id": "93fordF350"
+    }
+   ],
+   "bytes": 27433605,
+   "tree_sha256": "c9d65776a2906ece870fa3095c771992229a33d60da66dbea4124d052f4d4bd5",
+   "mod_ids": [
+    "93fordF350"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3077900375",
+   "title": "Mod Update and Alert System",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "chuckleberryModdingAlertSystem",
+     "src": "mods/3077900375/mods/chuckleberryModdingAlertSystem",
+     "mod_id": "ChuckleberryFinnAlertSystem"
+    }
+   ],
+   "bytes": 674130,
+   "tree_sha256": "c446c7257fd5c1064d4073192d21190864c3e20208876836d4e0bdf845baf490",
+   "mod_ids": [
+    "ChuckleberryFinnAlertSystem"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3088951320",
+   "title": "'93 Ford Taurus",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "93fordTaurus",
+     "src": "mods/3088951320/mods/93fordTaurus",
+     "mod_id": "93fordTaurus"
+    }
+   ],
+   "bytes": 27079027,
+   "tree_sha256": "61ab13d05f8389666364a49352257033d86f1792cfd76774540ece1c42e908ff",
+   "mod_ids": [
+    "93fordTaurus"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3101668503",
+   "title": "Mutie's Context Menu Icons",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "MutiesContextMenuIcons",
+     "src": "mods/3101668503/mods/MutiesContextMenuIcons",
+     "mod_id": "MutiesContextMenuIcons"
+    }
+   ],
+   "bytes": 4927320,
+   "tree_sha256": "c09ee9a1d74a7d82a63bc10e385ee7e7fb161c68b333b4b4839e1409b2d71d41",
+   "mod_ids": [
+    "MutiesContextMenuIcons"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3110911330",
+   "title": "'87 Ford B700/F700 Trucks",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "87fordB700",
+     "src": "mods/3110911330/mods/87fordB700",
+     "mod_id": "87fordB700"
+    }
+   ],
+   "bytes": 31435661,
+   "tree_sha256": "47cc56b9fe565de7ed46f36464f5540fbb26807e8910cc1d844204d5c0e36cf3",
+   "mod_ids": [
+    "87fordB700"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3110913021",
+   "title": "'90 BMW 3 Series (E30)",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "90bmwE30",
+     "src": "mods/3110913021/mods/90bmwE30",
+     "mod_id": "90bmwE30"
+    }
+   ],
+   "bytes": 33738955,
+   "tree_sha256": "91f851d2e6e9cb861bd790abb8d86b6f0e0a45e68b7ab5af983c7cfd69e94c3e",
+   "mod_ids": [
+    "90bmwE30"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3152529790",
+   "title": "'93 Chevrolet Suburban / Silverado",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "93chevySuburban",
+     "src": "mods/3152529790/mods/93chevySuburban",
+     "mod_id": "93chevySuburban"
+    },
+    {
+     "name": "93chevySuburbanExpanded",
+     "src": "mods/3152529790/mods/93chevySuburbanExpanded",
+     "mod_id": "93chevySuburbanExpanded"
+    }
+   ],
+   "bytes": 56551317,
+   "tree_sha256": "4f91592d5c6f1bf3bba3d481c292067655a1247b8f196b03230cfa6c45913dea",
+   "mod_ids": [
+    "93chevySuburban",
+    "93chevySuburbanExpanded"
+   ],
+   "requires": [
+    "93chevysuburban",
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3153010942",
+   "title": "First Aid VHS Tapes",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "FirstAidVHSTapes",
+     "src": "mods/3153010942/mods/FirstAidVHSTapes",
+     "mod_id": "FirstAidVHSTapes"
+    }
+   ],
+   "bytes": 658510,
+   "tree_sha256": "a8470f51ed5dccb97567dab1be7a21b5b2468df83387aeeeed1df0d8847287c2",
+   "mod_ids": [
+    "FirstAidVHSTapes"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3161951724",
+   "title": "'76 Chevrolet K Series",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "76chevyKseries",
+     "src": "mods/3161951724/mods/76chevyKseries",
+     "mod_id": "76chevyKseries"
+    },
+    {
+     "name": "76chevyKseriesExpanded",
+     "src": "mods/3161951724/mods/76chevyKseriesExpanded",
+     "mod_id": "76chevyKseriesExpanded"
+    }
+   ],
+   "bytes": 52496468,
+   "tree_sha256": "c8f3cfd706575aeecab3faa24f8aac941b27a61b91d0c80254c0b87e6e1037d3",
+   "mod_ids": [
+    "76chevyKseries",
+    "76chevyKseriesExpanded"
+   ],
+   "requires": [
+    "76chevykseries",
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3162566044",
+   "title": "[B41/B42] More Immersive Vehicles",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "More immersive vehicles",
+     "src": "mods/3162566044/mods/More immersive vehicles",
+     "mod_id": "DG_MIVehicles"
+    }
+   ],
+   "bytes": 1534165,
+   "tree_sha256": "72ab20b71cf49a419da67e9eb91da9666bd407dad3740d1920ca30b7dfd8b346",
+   "mod_ids": [
+    "DG_MIVehicles"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3171167894",
+   "title": "that DAMN Library",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "damnlib",
+     "src": "mods/3171167894/mods/damnlib",
+     "mod_id": "damnlib"
+    },
+    {
+     "name": "damnlibGlass",
+     "src": "mods/3171167894/mods/damnlibGlass",
+     "mod_id": "damnlibGlass"
+    }
+   ],
+   "bytes": 42356524,
+   "tree_sha256": "9f4b392c618dee94ab548fe84997765f190cb286753bdc4338eaeb395479ef56",
+   "mod_ids": [
+    "damnlib",
+    "damnlibGlass"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3196180339",
+   "title": "'87 Chevrolet Suburban",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "87chevySuburban",
+     "src": "mods/3196180339/mods/87chevySuburban",
+     "mod_id": "87chevySuburban"
+    }
+   ],
+   "bytes": 15122561,
+   "tree_sha256": "3699dbad72ceb18a9d615c67c1ed8a02502d9f97f1ae06a81ada50e32916be0e",
+   "mod_ids": [
+    "87chevySuburban"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3213391371",
+   "title": "'75 Pontiac Grand Prix",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "75grandPrix",
+     "src": "mods/3213391371/mods/75grandPrix",
+     "mod_id": "75grandPrix"
+    }
+   ],
+   "bytes": 14645817,
+   "tree_sha256": "472153d74ddba6fd128a9d90acd9e297f48c7f9e20f92fecf0538be287947ac9",
+   "mod_ids": [
+    "75grandPrix"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3226885926",
+   "title": "'87 Buick Regal",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "87buickRegal",
+     "src": "mods/3226885926/mods/87buickRegal",
+     "mod_id": "87buickRegal"
+    }
+   ],
+   "bytes": 15347064,
+   "tree_sha256": "3cd607c7fe80951820fcb744e6195b4bf27cdab13dd79ba3ca245e83ccd05dc8",
+   "mod_ids": [
+    "87buickRegal"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3232993626",
+   "title": "Safe User Login",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SafeUserLogin",
+     "src": "mods/3232993626/mods/SafeUserLogin",
+     "mod_id": "SafeUserLogin"
+    }
+   ],
+   "bytes": 184614,
+   "tree_sha256": "f9c38f26e597c12da6e851321092eada5abe90ba316442763fb3994bac2a970c",
+   "mod_ids": [
+    "SafeUserLogin"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3248388837",
+   "title": "'80 MAN KAT1",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "80manKat1",
+     "src": "mods/3248388837/mods/80manKat1",
+     "mod_id": "80manKat1"
+    }
+   ],
+   "bytes": 10363978,
+   "tree_sha256": "42951062c74185980a9f2dc6d2490f3de796fa51e5bf18263373a6e6926d9067",
+   "mod_ids": [
+    "80manKat1"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3258343790",
+   "title": "'68 Pontiac Firebird",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "68firebird",
+     "src": "mods/3258343790/mods/68firebird",
+     "mod_id": "68firebird"
+    }
+   ],
+   "bytes": 15802121,
+   "tree_sha256": "36d4257440544eb29444e4f9640c9170abe86601cfb9fda07ce8d84f35f25b0c",
+   "mod_ids": [
+    "68firebird"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3260240772",
+   "title": "sch1zk's Walkies Reimagined [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Walkies Reduced Drain",
+     "src": "mods/3260240772/mods/Walkies Reduced Drain",
+     "mod_id": "walkiesReducedDrain"
+    },
+    {
+     "name": "Walkies Reduced Weight",
+     "src": "mods/3260240772/mods/Walkies Reduced Weight",
+     "mod_id": "walkiesReducedWeight"
+    },
+    {
+     "name": "sch1zk's Walkies Reimagined",
+     "src": "mods/3260240772/mods/sch1zk's Walkies Reimagined",
+     "mod_id": "sch1zksWalkiesReimagined"
+    }
+   ],
+   "bytes": 30872,
+   "tree_sha256": "33acb729832b54ccfe57cd203c819b6b02b6271ef5ae9379463217b4ad122f20",
+   "mod_ids": [
+    "walkiesReducedDrain",
+    "walkiesReducedWeight",
+    "sch1zksWalkiesReimagined"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3268487204",
+   "title": "[B42] Bandits NPC",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Bandits",
+     "src": "mods/3268487204/mods/Bandits",
+     "mod_id": "Bandits2"
+    }
+   ],
+   "bytes": 159148961,
+   "tree_sha256": "6e4dbf479c7ab98b87322f4d3bc169b185a99e1124ae3ead94e0e52e878ed649",
+   "mod_ids": [
+    "Bandits2"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3287727378",
+   "title": "'92 Jeep YJ Wrangler",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "92jeepYJ",
+     "src": "mods/3287727378/mods/92jeepYJ",
+     "mod_id": "92jeepYJ"
+    },
+    {
+     "name": "92jeepYJJP18",
+     "src": "mods/3287727378/mods/92jeepYJJP18",
+     "mod_id": "92jeepYJJP18"
+    }
+   ],
+   "bytes": 21670863,
+   "tree_sha256": "733604b0576fd5bfb93ec9fddf0837bea4bfc28600c0682f6a84f0c9093beed1",
+   "mod_ids": [
+    "92jeepYJJP18",
+    "92jeepYJ"
+   ],
+   "requires": [
+    "92jeepyj",
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3290232938",
+   "title": "Smarter Storage",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SmarterStorage",
+     "src": "mods/3290232938/mods/SmarterStorage",
+     "mod_id": "SmarterStorage"
+    }
+   ],
+   "bytes": 284410,
+   "tree_sha256": "75a9e5f62f4790d848fd3edfeaba06c398f08a6966b3f107dcc9224922d77a6a",
+   "mod_ids": [
+    "SmarterStorage"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3292659291",
+   "title": "'89 Volvo 200 Series",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "89volvo200",
+     "src": "mods/3292659291/mods/89volvo200",
+     "mod_id": "89volvo200"
+    }
+   ],
+   "bytes": 32205807,
+   "tree_sha256": "63d61da4ce84c96b9cc76d4ea2d970f5af4bff8f47c69df8241c1dd9ad593dc4",
+   "mod_ids": [
+    "89volvo200"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3299457564",
+   "title": "[J&G] Desert Uniform [B42/41]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "[J&G] Desert Multicam Uniform",
+     "src": "mods/3299457564/mods/[J&G] Desert Multicam Uniform",
+     "mod_id": "[J&G] Desert Multicam Uniform"
+    }
+   ],
+   "bytes": 10985494,
+   "tree_sha256": "ae8f951b273ceeccb819075cad4ca6556289c6f4a46c2a638014cd469f8e142a",
+   "mod_ids": [
+    "[J&G] Desert Multicam Uniform"
+   ],
+   "requires": [
+    "kattaj1_clothescore"
+   ]
+  },
+  {
+   "workshop_id": "3307376332",
+   "title": "[B42MP] Frockin Splendor! Vol.1",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Frockin Splendor!",
+     "src": "mods/3307376332/mods/Frockin Splendor!",
+     "mod_id": "GanydeBielovzki's Frockin Splendor!"
+    }
+   ],
+   "bytes": 64359271,
+   "tree_sha256": "3eab154e7c64717a4a197f13b37eedda19ef467d72ddcaca27a6aa7c4fdeedc3",
+   "mod_ids": [
+    "GanydeBielovzki's Frockin Splendor!"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3320947974",
+   "title": "'82 Pontiac Firebird",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "82firebird",
+     "src": "mods/3320947974/mods/82firebird",
+     "mod_id": "82firebird"
+    },
+    {
+     "name": "82firebirdKITT",
+     "src": "mods/3320947974/mods/82firebirdKITT",
+     "mod_id": "82firebirdKITT"
+    }
+   ],
+   "bytes": 14306098,
+   "tree_sha256": "2b0d0ec9607c6b13664216fcaee9337aff96d9a3295c33ebc38b66bee48559ea",
+   "mod_ids": [
+    "82firebirdKITT",
+    "82firebird"
+   ],
+   "requires": [
+    "82firebird",
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3330403100",
+   "title": "Trailers!",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "KI5trailers",
+     "src": "mods/3330403100/mods/KI5trailers",
+     "mod_id": "KI5trailers"
+    }
+   ],
+   "bytes": 11786296,
+   "tree_sha256": "79006d0a30d37c0d5cd0aae9039eb2bba1f025f85a9c9478f3cd889da2ff577e",
+   "mod_ids": [
+    "KI5trailers"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3346905070",
+   "title": "'77 Pontiac Firebird",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "77firebird",
+     "src": "mods/3346905070/mods/77firebird",
+     "mod_id": "77firebird"
+    }
+   ],
+   "bytes": 16107215,
+   "tree_sha256": "525168dd7099e34f0d45407245dc6a8616c13ddfae85d5ad4a0dad853cb16319",
+   "mod_ids": [
+    "77firebird"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3360392628",
+   "title": "Map Mod Manager (41 and 42)",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Map Mod Manager",
+     "src": "mods/3360392628/mods/Map Mod Manager",
+     "mod_id": "mapmodmanager"
+    }
+   ],
+   "bytes": 2935850,
+   "tree_sha256": "db9d1c4d019bdfcd58be291b9d2e69520373a5e1eccf5a23741e32259c074ed3",
+   "mod_ids": [
+    "mapmodmanager"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3366300557",
+   "title": "'91 Ford LTD Crown Victoria / Country Squire",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "91fordLTD",
+     "src": "mods/3366300557/mods/91fordLTD",
+     "mod_id": "91fordLTD"
+    }
+   ],
+   "bytes": 26393321,
+   "tree_sha256": "e7675330dfed309c58d0e2130bf20b4e2c4a38076c014672c2ffc6fd34ceab4e",
+   "mod_ids": [
+    "91fordLTD"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3378285185",
+   "title": "Starlit Library",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "StarlitLibrary",
+     "src": "mods/3378285185/mods/StarlitLibrary",
+     "mod_id": "StarlitLibrary"
+    }
+   ],
+   "bytes": 710848,
+   "tree_sha256": "60f565b53158f723bdb62ad2d25148723fbd903015bf1adad0d32d2c17083ea5",
+   "mod_ids": [
+    "StarlitLibrary"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3379334330",
+   "title": "'82 Porsche 911",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "82porsche911",
+     "src": "mods/3379334330/mods/82porsche911",
+     "mod_id": "82porsche911"
+    }
+   ],
+   "bytes": 27275413,
+   "tree_sha256": "24f5edfbcace73bc98ee2b6071a1c9ad750af9cad055034b24fb84c887924ad5",
+   "mod_ids": [
+    "82porsche911"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3384377738",
+   "title": "[B41/B42] Elyon Lib",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ElyonLib",
+     "src": "mods/3384377738/mods/ElyonLib",
+     "mod_id": "ElyonLib"
+    }
+   ],
+   "bytes": 1396995,
+   "tree_sha256": "9d844cc6566a312c0a0e81fea9446241fa07a4bf8bba2492eab7c61da8415352",
+   "mod_ids": [
+    "ElyonLib"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3386906181",
+   "title": "[B42+] Sandbox Options",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "B42SandboxOptions",
+     "src": "mods/3386906181/mods/B42SandboxOptions",
+     "mod_id": "SandboxSettings"
+    }
+   ],
+   "bytes": 9300440,
+   "tree_sha256": "5f1b9925e37bd5f22fb9a4f899c1e9ee3a38b55b12344817c0c3d16813190679",
+   "mod_ids": [
+    "SandboxSettings"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3387957272",
+   "title": "[B42.20] Detailed Descriptions for Occupations and Traits",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Detailed Descriptions for Occupations and Traits",
+     "src": "mods/3387957272/mods/Detailed Descriptions for Occupations and Traits",
+     "mod_id": "DetailedDescriptionsForOccupationsAndTraits"
+    }
+   ],
+   "bytes": 564448,
+   "tree_sha256": "7c7d31e926d79160ee378297a62db1a9083d1bedac2a946afdaa379b8b29bbb8",
+   "mod_ids": [
+    "DetailedDescriptionsForOccupationsAndTraits"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3388468313",
+   "title": "RaccoonCityB42",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "RaccoonCityB42",
+     "src": "mods/3388468313/mods/RaccoonCityB42",
+     "mod_id": "RaccoonCityB42"
+    }
+   ],
+   "bytes": 105681964,
+   "tree_sha256": "8bbf173ab04bf76177befac29a03294f1989215a6d4ecb400ec0ce6d599c1613",
+   "mod_ids": [
+    "RaccoonCityB42"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3389605231",
+   "title": "TchernoLib",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "TchernoLib",
+     "src": "mods/3389605231/mods/TchernoLib",
+     "mod_id": "TchernoLib"
+    }
+   ],
+   "bytes": 819785,
+   "tree_sha256": "470e9994f8425813abafda322f4bb6150fbaad99c4c8a876c1391e87370290fc",
+   "mod_ids": [
+    "TchernoLib"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3390760692",
+   "title": "Exercise With Gear Again",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ExerciseWithGearAgain",
+     "src": "mods/3390760692/mods/ExerciseWithGearAgain",
+     "mod_id": "ExerciseWithGearAgain"
+    }
+   ],
+   "bytes": 415488,
+   "tree_sha256": "9a4bd015a82006734587f193e614876f18120558d50ad256a482942677dd5c97",
+   "mod_ids": [
+    "ExerciseWithGearAgain"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3393080905",
+   "title": "Canteen Slot (wear canteen & satchel at  same time)",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Nep Canteen Slot",
+     "src": "mods/3393080905/mods/Nep Canteen Slot",
+     "mod_id": "NepCanteenSlot"
+    }
+   ],
+   "bytes": 211072,
+   "tree_sha256": "f83f7aab4a84f2f42e600f210afc329d312665008329fa38952b9a5c4d3333c0",
+   "mod_ids": [
+    "NepCanteenSlot"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3393821407",
+   "title": "[B42] Drag Bodies Faster",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "DragBodiesFaster 25%",
+     "src": "mods/3393821407/mods/DragBodiesFaster 25%",
+     "mod_id": "DBFaster25"
+    },
+    {
+     "name": "DragBodiesFaster 50%",
+     "src": "mods/3393821407/mods/DragBodiesFaster 50%",
+     "mod_id": "DBFaster50"
+    },
+    {
+     "name": "DragBodiesFaster 60%",
+     "src": "mods/3393821407/mods/DragBodiesFaster 60%",
+     "mod_id": "DBFaster60"
+    },
+    {
+     "name": "DragBodiesFaster 70%",
+     "src": "mods/3393821407/mods/DragBodiesFaster 70%",
+     "mod_id": "DBFaster70"
+    },
+    {
+     "name": "DragBodiesFaster 80%",
+     "src": "mods/3393821407/mods/DragBodiesFaster 80%",
+     "mod_id": "DBFaster80"
+    }
+   ],
+   "bytes": 1320840,
+   "tree_sha256": "a0d2dfa4d0904b463902d98df22a73460f9e4b976cb392cb3909a831c7090418",
+   "mod_ids": [
+    "DBFaster70",
+    "DBFaster25",
+    "DBFaster50",
+    "DBFaster60",
+    "DBFaster80"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3395171770",
+   "title": "Moodles in lua [B42.20]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "MoodlesInLua",
+     "src": "mods/3395171770/mods/MoodlesInLua",
+     "mod_id": "moodlesinlua"
+    }
+   ],
+   "bytes": 619771,
+   "tree_sha256": "d204804460d712374c5762736734cf2dd6f42668df35951c42ce9f08ec2bead3",
+   "mod_ids": [
+    "moodlesinlua"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3399320470",
+   "title": "Serving Plates: Make your plates useful for Build 42",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Serving plates Build42",
+     "src": "mods/3399320470/mods/Serving plates Build42",
+     "mod_id": "ServingPlates42"
+    }
+   ],
+   "bytes": 337228,
+   "tree_sha256": "102a1095cb2fb4da0c6780d65ad683b1a034d45db2558a2dd8f19ae6248fa3ff",
+   "mod_ids": [
+    "ServingPlates42"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3401134276",
+   "title": "Vanilla Gear Expanded",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Vanilla Gear Expanded",
+     "src": "mods/3401134276/mods/Vanilla Gear Expanded",
+     "mod_id": "VanillaGearExpanded"
+    }
+   ],
+   "bytes": 5981603,
+   "tree_sha256": "834753eb145097dae29b9245d0d00524a62e8fc7b879e94ce84a7c9da1dfb7c3",
+   "mod_ids": [
+    "VanillaGearExpanded"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3402516345",
+   "title": "[B42] Survival",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "B42Survival",
+     "src": "mods/3402516345/mods/B42Survival",
+     "mod_id": "B42Survival"
+    }
+   ],
+   "bytes": 493378,
+   "tree_sha256": "4068b98c4b29f8773c241b909309476191d4b2276ccf80ceac729b1cc548ff58",
+   "mod_ids": [
+    "B42Survival"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3408740647",
+   "title": "Wesch's Better Wringing 42.20",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "W_BetterWringing",
+     "src": "mods/3408740647/mods/W_BetterWringing",
+     "mod_id": "w_betterwringing"
+    }
+   ],
+   "bytes": 23120,
+   "tree_sha256": "565818fd620fba4e29473be38e8dec118296b56017ad8bc8ae7c57d54496cd2c",
+   "mod_ids": [
+    "w_betterwringing"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3409143790",
+   "title": "Sapph's Cooking [B42+]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SapphCookingB42",
+     "src": "mods/3409143790/mods/SapphCookingB42",
+     "mod_id": "SapphCooking_B42"
+    }
+   ],
+   "bytes": 100277993,
+   "tree_sha256": "a3ea4053c8a60226bc1ea91737465a1c15d45014f6854e3a8c89b697e3852315",
+   "mod_ids": [
+    "SapphCooking_B42"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3409287192",
+   "title": "'84 Jeep XJ Cherokee",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "84jeepXJ",
+     "src": "mods/3409287192/mods/84jeepXJ",
+     "mod_id": "84jeepXJ"
+    }
+   ],
+   "bytes": 17745631,
+   "tree_sha256": "9dc2f7a7dd94e5987914bdcf10a5ccbad381cb06dd4e4db61669eb637b0c2c5a",
+   "mod_ids": [
+    "84jeepXJ"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3411888105",
+   "title": "[B42MP] Frockin Splendor! Vol.2",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Frockin Splendor! Vol.2",
+     "src": "mods/3411888105/mods/Frockin Splendor! Vol.2",
+     "mod_id": "GanydeBielovzki's Frockin Splendor! Vol.2"
+    }
+   ],
+   "bytes": 51862868,
+   "tree_sha256": "f65dc5e35b04d3edb3aac4cda9e7c8991fbd5666e56df6c80862309524b9ab04",
+   "mod_ids": [
+    "GanydeBielovzki's Frockin Splendor! Vol.2"
+   ],
+   "requires": [
+    "ganydebielovzki's frockin backstage!"
+   ]
+  },
+  {
+   "workshop_id": "3413150945",
+   "title": "More Damaged Objects [42MP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "MoreDamagedObjects",
+     "src": "mods/3413150945/mods/MoreDamagedObjects",
+     "mod_id": "MoreDamagedObjects"
+    }
+   ],
+   "bytes": 7891277,
+   "tree_sha256": "823c086b811801af6f91b63c76237dc00e9276292f9923f9408df89dfc012eae",
+   "mod_ids": [
+    "MoreDamagedObjects"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3414634809",
+   "title": "Spongie's Character Customisation",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SpongieCharacterCustomisation",
+     "src": "mods/3414634809/mods/SpongieCharacterCustomisation",
+     "mod_id": "SPNCC"
+    },
+    {
+     "name": "SpongieCharacterCustomisation - Details Pack",
+     "src": "mods/3414634809/mods/SpongieCharacterCustomisation - Details Pack",
+     "mod_id": "SPNCCDetails"
+    },
+    {
+     "name": "SpongieCharacterCustomisation - Details Pack HD Textures",
+     "src": "mods/3414634809/mods/SpongieCharacterCustomisation - Details Pack HD Textures",
+     "mod_id": "SPNCCDetailsHD"
+    },
+    {
+     "name": "SpongieCharacterCustomisation - Vanilla Faces Pack",
+     "src": "mods/3414634809/mods/SpongieCharacterCustomisation - Vanilla Faces Pack",
+     "mod_id": "SPNCCFaces"
+    }
+   ],
+   "bytes": 2621898,
+   "tree_sha256": "8153d29eb153ef9c7250b342092c8f4359a2472ba68a29a1420b9d224e709910",
+   "mod_ids": [
+    "SPNCCDetailsHD",
+    "SPNCCFaces",
+    "SPNCCDetails",
+    "SPNCC"
+   ],
+   "requires": [
+    "spncc",
+    "spnccdetails"
+   ]
+  },
+  {
+   "workshop_id": "3416833689",
+   "title": "[B42.2*] Jarred and dried mushroom",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "B42Mushroomjar",
+     "src": "mods/3416833689/mods/B42Mushroomjar",
+     "mod_id": "Mushroomjar"
+    }
+   ],
+   "bytes": 1042143,
+   "tree_sha256": "ba5aaf6f0ee41926e256821bb8efb3996593babffc92935efcbe9ede8974ad05",
+   "mod_ids": [
+    "Mushroomjar"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3417502641",
+   "title": "[B42.2*] Make Dried Fruit",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "B42Makedriedfruit",
+     "src": "mods/3417502641/mods/B42Makedriedfruit",
+     "mod_id": "Makedriedfruit"
+    }
+   ],
+   "bytes": 358438,
+   "tree_sha256": "e6f099a5e60bf389571af0d793da5bb9b92b2b25b8bae1e9235b6d693cd26ce2",
+   "mod_ids": [
+    "Makedriedfruit"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3418061837",
+   "title": "[B42.2*] Make Dried Vegetables",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "B42Makedriedvegetable",
+     "src": "mods/3418061837/mods/B42Makedriedvegetable",
+     "mod_id": "Makedriedvegetable"
+    }
+   ],
+   "bytes": 581831,
+   "tree_sha256": "b4cb7c3deabeabe398fa1aaaf107b66966023af16282e1cb96a5b3ed538feb72",
+   "mod_ids": [
+    "Makedriedvegetable"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3418252689",
+   "title": "'85 Buick LeSabre",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "85buickLeSabre",
+     "src": "mods/3418252689/mods/85buickLeSabre",
+     "mod_id": "85buickLeSabre"
+    }
+   ],
+   "bytes": 19464297,
+   "tree_sha256": "305d4d7205fbd5f03077b4fd984aea405a029e1e33801531cdae96428c8c4a3d",
+   "mod_ids": [
+    "85buickLeSabre"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3422220305",
+   "title": "Picking Meister",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "P4PickingMeister",
+     "src": "mods/3422220305/mods/P4PickingMeister",
+     "mod_id": "P4PickingMeister"
+    }
+   ],
+   "bytes": 1350053,
+   "tree_sha256": "02da5ad9eda308bf0b52d48144315c0c7fc56ff5de856e08a79a84557ddb5fe2",
+   "mod_ids": [
+    "P4PickingMeister"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3423424077",
+   "title": "Vanilla Vehicles Replacer (KI5)",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "VanillaVehiclesReplacerKI5",
+     "src": "mods/3423424077/mods/VanillaVehiclesReplacerKI5",
+     "mod_id": "VVR"
+    }
+   ],
+   "bytes": 350293,
+   "tree_sha256": "ade6e03f407c2c7abe4fcfd3030dc08649c34303579fdd29f1adf697d832bc2e",
+   "mod_ids": [
+    "VVR"
+   ],
+   "requires": [
+    "yapzlib"
+   ]
+  },
+  {
+   "workshop_id": "3423660713",
+   "title": "Mod Load Order Sorter [b42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ModLoadOrderSorter_b42",
+     "src": "mods/3423660713/mods/ModLoadOrderSorter_b42",
+     "mod_id": "ModLoadOrderSorter_b42"
+    }
+   ],
+   "bytes": 198915,
+   "tree_sha256": "8e602f285517c272ede207857742540787617a51017f10fffefde0dec90b235d",
+   "mod_ids": [
+    "ModLoadOrderSorter_b42"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3426448380",
+   "title": "Immersive Suicide [B42/B41]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ImmersiveSuicide",
+     "src": "mods/3426448380/mods/ImmersiveSuicide",
+     "mod_id": "stanks_suicide"
+    }
+   ],
+   "bytes": 362476,
+   "tree_sha256": "2fd47e097e780ab4d971992014bf2dd2376b5504e3b9b71307a08bd6761ddec5",
+   "mod_ids": [
+    "stanks_suicide"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3428008364",
+   "title": "'86 Chevrolet CUCVs + M101A2 Trailer",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "86chevyCUCV",
+     "src": "mods/3428008364/mods/86chevyCUCV",
+     "mod_id": "86chevyCUCV"
+    }
+   ],
+   "bytes": 41545430,
+   "tree_sha256": "71aa84eaed10cae0f2dec739c129085f31b597c8a1656247ddd829e67ee2fc6b",
+   "mod_ids": [
+    "86chevyCUCV"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3428715523",
+   "title": "Crafting XP Display",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "CraftingXPDisplay",
+     "src": "mods/3428715523/mods/CraftingXPDisplay",
+     "mod_id": "CraftingXPDisplay"
+    }
+   ],
+   "bytes": 290146,
+   "tree_sha256": "d6f71fbf4190fd49020a15333272d399a27118da9d3b448e589306cdf6e38e24",
+   "mod_ids": [
+    "CraftingXPDisplay"
+   ],
+   "requires": [
+    "starlitlibrary"
+   ]
+  },
+  {
+   "workshop_id": "3431256608",
+   "title": "[B42MP] Frockin Splendor! Vol.3",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Frockin Splendor! Vol.3",
+     "src": "mods/3431256608/mods/Frockin Splendor! Vol.3",
+     "mod_id": "GanydeBielovzki's Frockin Splendor! Vol.3"
+    }
+   ],
+   "bytes": 46082765,
+   "tree_sha256": "aeca2a960f2a2ea855ab818b4730749f6064411aedb037d2a35230f2605922c4",
+   "mod_ids": [
+    "GanydeBielovzki's Frockin Splendor! Vol.3"
+   ],
+   "requires": [
+    "ganydebielovzki's frockin backstage!"
+   ]
+  },
+  {
+   "workshop_id": "3432006285",
+   "title": "[B42.2*] Fruits in jars",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "B42Makefruitinjar",
+     "src": "mods/3432006285/mods/B42Makefruitinjar",
+     "mod_id": "Makefruitinjar"
+    }
+   ],
+   "bytes": 485857,
+   "tree_sha256": "812b724440463202477c4c015b0982465efdefd998b9c23dc65b42177dddfc24",
+   "mod_ids": [
+    "Makefruitinjar"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3432928943",
+   "title": "Escape From Tarkov Backpacks [B42.20]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "EFTBackpacks",
+     "src": "mods/3432928943/mods/EFTBackpacks",
+     "mod_id": "EFTBP"
+    }
+   ],
+   "bytes": 12957200,
+   "tree_sha256": "ff9c02ebb8aae25fe8db2414a2ee6f731e0a4b1cfd849ec9efbb4833e94418be",
+   "mod_ids": [
+    "EFTBP"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3435796523",
+   "title": "'88 Toyota Hilux",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "88toyotaHilux",
+     "src": "mods/3435796523/mods/88toyotaHilux",
+     "mod_id": "88toyotaHilux"
+    }
+   ],
+   "bytes": 11811514,
+   "tree_sha256": "847aae3bee9b7fa511ff1fd0b19d4602cafc843fd87ad93558f30d3587bace66",
+   "mod_ids": [
+    "88toyotaHilux"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3436499337",
+   "title": "Vehicle Military Zones",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "VehicleMilitaryZones",
+     "src": "mods/3436499337/mods/VehicleMilitaryZones",
+     "mod_id": "VMZNEW"
+    }
+   ],
+   "bytes": 445669,
+   "tree_sha256": "24129d17780801a38a9eb539101f6d2998b8bd08abfadc74fc3aed9e850543c8",
+   "mod_ids": [
+    "VMZNEW"
+   ],
+   "requires": [
+    "yapzlib"
+   ]
+  },
+  {
+   "workshop_id": "3436537035",
+   "title": "Useful Barrels",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "UsefulBarrelsMP",
+     "src": "mods/3436537035/mods/UsefulBarrelsMP",
+     "mod_id": "UsefulBarrelsMP"
+    }
+   ],
+   "bytes": 685019,
+   "tree_sha256": "2dd8000706afcd9f91b25ab1033923372da4ca9a2ad32beed585fb967b82abee",
+   "mod_ids": [
+    "UsefulBarrelsMP"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3444499190",
+   "title": "Farming Expansion B42",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Farming Expansion",
+     "src": "mods/3444499190/mods/Farming Expansion",
+     "mod_id": "FE_RTS"
+    }
+   ],
+   "bytes": 11977719,
+   "tree_sha256": "e5c099ba903acb728c1131138e2dae2c9e7ddb054a61ce03ab521f103edf9f64",
+   "mod_ids": [
+    "FE_RTS"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3447272250",
+   "title": "'66 Pontiac LeMans / GTO",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "66pontiacLeMans",
+     "src": "mods/3447272250/mods/66pontiacLeMans",
+     "mod_id": "66pontiacLeMans"
+    }
+   ],
+   "bytes": 18235163,
+   "tree_sha256": "c36c5875664f36ca3149c08e789aaed36d61db9448123ea7a051348f749b4324",
+   "mod_ids": [
+    "66pontiacLeMans"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3447775367",
+   "title": "Drink Smart [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "DrinkSmart",
+     "src": "mods/3447775367/mods/DrinkSmart",
+     "mod_id": "Drink_Smart"
+    }
+   ],
+   "bytes": 854686,
+   "tree_sha256": "5cfb3a2063e6706c0e55ae80ebdfd5abff90bf162d8388dababb4a28c04c1695",
+   "mod_ids": [
+    "Drink_Smart"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3453175422",
+   "title": "Edwin's Survival Tabs",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Edwin's Survival Tabs",
+     "src": "mods/3453175422/mods/Edwin's Survival Tabs",
+     "mod_id": "Edwin'sSurvivalTabsMod"
+    }
+   ],
+   "bytes": 1272698,
+   "tree_sha256": "b0032d0bc0d5fc486156b042dd95ddc667614d65932ba87170ad9aaa092179d5",
+   "mod_ids": [
+    "Edwin'sSurvivalTabsMod"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3453676250",
+   "title": "[B42MP] Frockin Shirts & Ties!",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Frockin Shirts n Ties",
+     "src": "mods/3453676250/mods/Frockin Shirts n Ties",
+     "mod_id": "GanydeBielovzki's Frockin Shirts n Ties"
+    }
+   ],
+   "bytes": 14556428,
+   "tree_sha256": "d3afa31d9ac04facb95b0cefc3332e37a7a5928b67af6be4270ab979907b752c",
+   "mod_ids": [
+    "GanydeBielovzki's Frockin Shirts n Ties"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3454414190",
+   "title": "[B42] Immersive Camos",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "AccCamos",
+     "src": "mods/3454414190/mods/AccCamos",
+     "mod_id": "AccCamos"
+    },
+    {
+     "name": "AccCamosPeriodPack",
+     "src": "mods/3454414190/mods/AccCamosPeriodPack",
+     "mod_id": "AccCamosPeriodPack"
+    }
+   ],
+   "bytes": 4431333,
+   "tree_sha256": "c71f59c784df2ff974a5a36e6bb5ac3de0c17f407b477af105eb5c1418a29ee0",
+   "mod_ids": [
+    "AccCamosPeriodPack",
+    "AccCamos"
+   ],
+   "requires": [
+    "acccamos"
+   ]
+  },
+  {
+   "workshop_id": "3455296935",
+   "title": "Edwin's Canned Tobacco Kit",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Edwin's Canned Tobacco Kit",
+     "src": "mods/3455296935/mods/Edwin's Canned Tobacco Kit",
+     "mod_id": "Edwin'sCannedTobaccoKit"
+    }
+   ],
+   "bytes": 6196060,
+   "tree_sha256": "adfb0fe2c19b2b5b15a8e162b2dfbdd4ebae05ba9ea456b1002546c022dd9cea",
+   "mod_ids": [
+    "Edwin'sCannedTobaccoKit"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3457064550",
+   "title": "More on the Floor",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Nep More on Floor",
+     "src": "mods/3457064550/mods/Nep More on Floor",
+     "mod_id": "NepMoreOnFloor"
+    }
+   ],
+   "bytes": 1133220,
+   "tree_sha256": "c26c149031fb7286354f6176ac14e27973b38b28d21ebc2c22875dbeca4990fc",
+   "mod_ids": [
+    "NepMoreOnFloor"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3457132019",
+   "title": "Specific Loot (KI5)",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SpecificLootKI5",
+     "src": "mods/3457132019/mods/SpecificLootKI5",
+     "mod_id": "SpecLoot"
+    }
+   ],
+   "bytes": 1767137,
+   "tree_sha256": "a43decafbe7c2face0416d12821b094945f0a89580ef034480b01f9c26d4a06f",
+   "mod_ids": [
+    "SpecLoot"
+   ],
+   "requires": [
+    "yapzlib"
+   ]
+  },
+  {
+   "workshop_id": "3457969588",
+   "title": "[J&G] SWAT Uniform [B42/41]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "[J&G] SWAT Uniform",
+     "src": "mods/3457969588/mods/[J&G] SWAT Uniform",
+     "mod_id": "[J&G] SWAT Uniform"
+    }
+   ],
+   "bytes": 12469960,
+   "tree_sha256": "cea4f1d5d6ad1f56dfd31c0969d9ae05541e9bacbdd4a88a7a2cee9c284a6c9e",
+   "mod_ids": [
+    "[J&G] SWAT Uniform"
+   ],
+   "requires": [
+    "kattaj1_clothescore"
+   ]
+  },
+  {
+   "workshop_id": "3460812542",
+   "title": "Washing Menus Improved [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "WashingMenusImproved",
+     "src": "mods/3460812542/mods/WashingMenusImproved",
+     "mod_id": "WashFix"
+    }
+   ],
+   "bytes": 4207220,
+   "tree_sha256": "dc139bc3386eedd5eb28a3d0e29a46927a364929f8a3f1051ca45ba5bd505811",
+   "mod_ids": [
+    "WashFix"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3461263912",
+   "title": "Clean HotBar [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "CleanHotBar",
+     "src": "mods/3461263912/mods/CleanHotBar",
+     "mod_id": "CleanHotBar"
+    }
+   ],
+   "bytes": 828397,
+   "tree_sha256": "c83dc8da9e6605e2d4ee76f7a757606cb554f57cf3b257c4d873701f8f6ec67e",
+   "mod_ids": [
+    "CleanHotBar"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3465040406",
+   "title": "Open All Containers [42MP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "OpenAllContainers",
+     "src": "mods/3465040406/mods/OpenAllContainers",
+     "mod_id": "OpenAllContainers"
+    }
+   ],
+   "bytes": 23024758,
+   "tree_sha256": "522393b4cec902f9a9dc9295c5e4ba59af1e4ea3760a94d7b14e16d283ca7dac",
+   "mod_ids": [
+    "OpenAllContainers"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3470422050",
+   "title": "KATTAJ1 Clothes Core [B41/B42MP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "KATTAJ1 Clothes Core",
+     "src": "mods/3470422050/mods/KATTAJ1 Clothes Core",
+     "mod_id": "KATTAJ1_ClothesCore"
+    }
+   ],
+   "bytes": 20882885,
+   "tree_sha256": "2ff483421afe59fbfd42e4fa3b1e52dbb790ae4f1e0617d831c2cf725a3e9892",
+   "mod_ids": [
+    "KATTAJ1_ClothesCore"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3475347500",
+   "title": "[B42MP] Frockin Splendor! Vol.4",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Frockin Splendor! Vol.4",
+     "src": "mods/3475347500/mods/Frockin Splendor! Vol.4",
+     "mod_id": "GanydeBielovzki's Frockin Splendor! Vol.4"
+    }
+   ],
+   "bytes": 48798385,
+   "tree_sha256": "2b4baaa6953dd0a84185792e43c9f1382a4b7bb6ca169703b9c217a407bc7ef4",
+   "mod_ids": [
+    "GanydeBielovzki's Frockin Splendor! Vol.4"
+   ],
+   "requires": [
+    "ganydebielovzki's frockin backstage!"
+   ]
+  },
+  {
+   "workshop_id": "3484263516",
+   "title": "Raven Creek B42",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Raven Creek B42",
+     "src": "mods/3484263516/mods/Raven Creek B42",
+     "mod_id": "RavenCreekB42"
+    }
+   ],
+   "bytes": 120169463,
+   "tree_sha256": "30f7124ce089eb7ecbcc69a2a6d215606ed6c7c40ccc2be1586b95631f9c8e5c",
+   "mod_ids": [
+    "RavenCreekB42"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3490370700",
+   "title": "'73 Ford Falcon",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "73fordFalcon",
+     "src": "mods/3490370700/mods/73fordFalcon",
+     "mod_id": "73fordFalcon"
+    },
+    {
+     "name": "73fordFalconPS",
+     "src": "mods/3490370700/mods/73fordFalconPS",
+     "mod_id": "73fordFalconPS"
+    }
+   ],
+   "bytes": 15026710,
+   "tree_sha256": "7329d51c346482e498614b1c3552cb75ff7e14caceff8fecdb222c360d08e6e4",
+   "mod_ids": [
+    "73fordFalconPS",
+    "73fordFalcon"
+   ],
+   "requires": [
+    "73fordfalcon",
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3496507146",
+   "title": "[B42&MP]Fort Preston",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "muldraughmilitarybaseas24",
+     "src": "mods/3496507146/mods/muldraughmilitarybaseas24",
+     "mod_id": "muldraughmilitarybaseas24"
+    }
+   ],
+   "bytes": 20828416,
+   "tree_sha256": "a8d8141eb51e95b936ffdf97ef0335cb33a9e8341b1067b8aca9395b31ef59a0",
+   "mod_ids": [
+    "muldraughmilitarybaseas24"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3502080466",
+   "title": "Neat Crafting [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Neat_Crafting",
+     "src": "mods/3502080466/mods/Neat_Crafting",
+     "mod_id": "Neat_Crafting"
+    }
+   ],
+   "bytes": 4204259,
+   "tree_sha256": "08bdd2495bf774b4e6a1ba443b233408e754fcdebf2e4df213ce111f47f9e16a",
+   "mod_ids": [
+    "Neat_Crafting"
+   ],
+   "requires": [
+    "neatui_framework"
+   ]
+  },
+  {
+   "workshop_id": "3508537032",
+   "title": "NeatUI Framework [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "NeatUI_Framework",
+     "src": "mods/3508537032/mods/NeatUI_Framework",
+     "mod_id": "NeatUI_Framework"
+    }
+   ],
+   "bytes": 2310067,
+   "tree_sha256": "aa3b0c4badff87d9c17c0da201d9fb30cc0f1a37829abed1b0115c05e02d353f",
+   "mod_ids": [
+    "NeatUI_Framework"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3521263771",
+   "title": "[J&G] Firefighter Uniform [B42/41]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "[J&G] Firefighter Uniform",
+     "src": "mods/3521263771/mods/[J&G] Firefighter Uniform",
+     "mod_id": "[J&G] Firefighter Uniform"
+    }
+   ],
+   "bytes": 47473809,
+   "tree_sha256": "0da5547c6e74a984b8544dfbd84d03bd69d40c12a86410bdb933ccd7d83b800e",
+   "mod_ids": [
+    "[J&G] Firefighter Uniform"
+   ],
+   "requires": [
+    "kattaj1_clothescore"
+   ]
+  },
+  {
+   "workshop_id": "3533994661",
+   "title": "More Uses for Lighters and Matches",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "MoreUsesForLightersAndMatches",
+     "src": "mods/3533994661/mods/MoreUsesForLightersAndMatches",
+     "mod_id": "MoreUsesForLightersAndMatches"
+    }
+   ],
+   "bytes": 38704,
+   "tree_sha256": "8da0d9c28495aa5ae65d3c47eb3715bbb729cd785d1887dc52f017b24fe5486e",
+   "mod_ids": [
+    "MoreUsesForLightersAndMatches"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3538602374",
+   "title": "Break Big Rocks - Enhanced Mining & Crafting",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "DestroyBoulder",
+     "src": "mods/3538602374/mods/DestroyBoulder",
+     "mod_id": "BreakBigRocks"
+    }
+   ],
+   "bytes": 4142647,
+   "tree_sha256": "2ed54426f5accec5ef07e1db5fc3c1df20703786e65d13b54ab708e271d0cc27",
+   "mod_ids": [
+    "BreakBigRocks"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3538760023",
+   "title": "[B42MP] Frockin Wiseguys!",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Frockin Wiseguys",
+     "src": "mods/3538760023/mods/Frockin Wiseguys",
+     "mod_id": "GanydeBielovzki's Frockin Wiseguys"
+    }
+   ],
+   "bytes": 22511216,
+   "tree_sha256": "facab128461d1041a644344fc9e439363ece45784ccdf48b22c3a096ae23d59b",
+   "mod_ids": [
+    "GanydeBielovzki's Frockin Wiseguys"
+   ],
+   "requires": [
+    "ganydebielovzki's frockin backstage!"
+   ]
+  },
+  {
+   "workshop_id": "3539691958",
+   "title": "'91 Ford Ranger",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "91fordRanger",
+     "src": "mods/3539691958/mods/91fordRanger",
+     "mod_id": "91fordRanger"
+    }
+   ],
+   "bytes": 14413373,
+   "tree_sha256": "2802ff1ffb2e9399883b6be8acc5a664904a498f975635359712e1a428e8238f",
+   "mod_ids": [
+    "91fordRanger"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3543229299",
+   "title": "[B42]Project RV Interior",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "modPROJECTRVInterior",
+     "src": "mods/3543229299/mods/modPROJECTRVInterior",
+     "mod_id": "PROJECTRVInterior42"
+    }
+   ],
+   "bytes": 21486987,
+   "tree_sha256": "d1cf223bac1a797abc0b7f50900eb5faa0bb2af16702acaa8d44a8eba75f994c",
+   "mod_ids": [
+    "PROJECTRVInterior42"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3557111695",
+   "title": "Skill Book Expansion",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SkillBook Expansion",
+     "src": "mods/3557111695/mods/SkillBook Expansion",
+     "mod_id": "SkillBookExpansionB42"
+    }
+   ],
+   "bytes": 476589,
+   "tree_sha256": "597fb7a084bc80048b710379b3f5f3104c918ada49c7586bd2b077050650058e",
+   "mod_ids": [
+    "SkillBookExpansionB42"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3566868353",
+   "title": "'65 Pontiac Banshee",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "65banshee",
+     "src": "mods/3566868353/mods/65banshee",
+     "mod_id": "65banshee"
+    }
+   ],
+   "bytes": 10637133,
+   "tree_sha256": "0d96bb80c114c78bae417cdae187d9794e27b59a0c41d2a3f49e99bfdc0256bb",
+   "mod_ids": [
+    "65banshee"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3567084868",
+   "title": "[B42] Mod Manager",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "[B42] Mod Manager",
+     "src": "mods/3567084868/mods/[B42] Mod Manager",
+     "mod_id": "[B42] Mod Manager"
+    }
+   ],
+   "bytes": 1111706,
+   "tree_sha256": "ed2066510c8cc9c07e3024601303d77ea6f5ba3a4fb95470d40a8150c581feb5",
+   "mod_ids": [
+    "ModManager"
+   ],
+   "requires": [
+    "modloadordersorter_b42"
+   ]
+  },
+  {
+   "workshop_id": "3567695139",
+   "title": "Has Research",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "HasResearch",
+     "src": "mods/3567695139/mods/HasResearch",
+     "mod_id": "HasResearch"
+    }
+   ],
+   "bytes": 49151,
+   "tree_sha256": "1bf0bf97a4fd9a2eb43e0892bb048a73bd56595532718aec0dc59881ae749b67",
+   "mod_ids": [
+    "HasResearch"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3570250507",
+   "title": "TwisTonFire - Faster Actions",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "TwisTonFire - FasterActions",
+     "src": "mods/3570250507/mods/TwisTonFire - FasterActions",
+     "mod_id": "TwisTonFireFasterActions"
+    }
+   ],
+   "bytes": 2839535,
+   "tree_sha256": "1784f44ead14596a8f4bab70899ddba8a92589f35008daaf8588a4f4c2d50a50",
+   "mod_ids": [
+    "TwisTonFireFasterActions"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3570485296",
+   "title": "TwisTonFire - Better Fishing",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "TwisTonFire - Better Fishing",
+     "src": "mods/3570485296/mods/TwisTonFire - Better Fishing",
+     "mod_id": "twistonfirebetterfishing"
+    }
+   ],
+   "bytes": 3624425,
+   "tree_sha256": "a88583bc371d0d8fc7fd1448f747d7097f95eec89867dc616b06ca30292625aa",
+   "mod_ids": [
+    "twistonfirebetterfishing"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3570973322",
+   "title": "'89 LAND ROVER Defender",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "89defender",
+     "src": "mods/3570973322/mods/89defender",
+     "mod_id": "89defender"
+    }
+   ],
+   "bytes": 29078480,
+   "tree_sha256": "7b5cae555d6bb58492dee34e96b58dcb5a2aca6a3e9e14d785fc1d3508a1e717",
+   "mod_ids": [
+    "89defender"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3577100076",
+   "title": "Cold Winters",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Cold Winters",
+     "src": "mods/3577100076/mods/Cold Winters",
+     "mod_id": "coldwinters"
+    }
+   ],
+   "bytes": 3388996,
+   "tree_sha256": "170faa048dcc4ef71119cf4a51eaa2a2d5f07a9a1134bc0c2034100b04e64ad3",
+   "mod_ids": [
+    "coldwinters"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3577903007",
+   "title": "Vanilla Foods Expanded",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Vanilla Foods Expanded",
+     "src": "mods/3577903007/mods/Vanilla Foods Expanded",
+     "mod_id": "VanillaFoodsExpanded"
+    }
+   ],
+   "bytes": 113629783,
+   "tree_sha256": "12fe0d3d4a54ba6fc17e6d3cc61262843d8ae65336a91d9055f7baa5efa22e33",
+   "mod_ids": [
+    "VanillaFoodsExpanded"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3579640010",
+   "title": "ST Additions - Pry Open (A Crowbar Mod)",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "STA_PryOpen",
+     "src": "mods/3579640010/mods/STA_PryOpen",
+     "mod_id": "STA_PryOpen"
+    }
+   ],
+   "bytes": 748124,
+   "tree_sha256": "2aa8d6e7609144504346a62b4ca8a56019ba78a31eb92392db9e0c083b39a059",
+   "mod_ids": [
+    "STA_PryOpen"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3582960654",
+   "title": "Somewhat Water",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SomewhatWater",
+     "src": "mods/3582960654/mods/SomewhatWater",
+     "mod_id": "SomewhatWater"
+    },
+    {
+     "name": "SomewhatWaterBright",
+     "src": "mods/3582960654/mods/SomewhatWaterBright",
+     "mod_id": "SomewhatWaterBright"
+    }
+   ],
+   "bytes": 640490,
+   "tree_sha256": "16d264a095c9d4ab46c170abf9058dac9d9a7588d8fc950398fa633e7389f942",
+   "mod_ids": [
+    "SomewhatWaterBright",
+    "SomewhatWater"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3592777775",
+   "title": "'84 Cadillac DeVille",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "84cadillacDeVille",
+     "src": "mods/3592777775/mods/84cadillacDeVille",
+     "mod_id": "84cadillacDeVille"
+    }
+   ],
+   "bytes": 19185982,
+   "tree_sha256": "eb22a5e61fb7334be4f7bf4735767db864db9f0cd3da008506a0d4e67f66fa30",
+   "mod_ids": [
+    "84cadillacDeVille"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3596827035",
+   "title": "ShelterHold: Beehive",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ShelterHold_Beehive",
+     "src": "mods/3596827035/mods/ShelterHold_Beehive",
+     "mod_id": "ShelterHold_Beehive"
+    }
+   ],
+   "bytes": 4640073,
+   "tree_sha256": "30f24208a3abcab9efe11fec7c5afffbba796a4bd048e9095439341157a4787e",
+   "mod_ids": [
+    "ShelterHold_Beehive"
+   ],
+   "requires": [
+    "neatui_framework"
+   ]
+  },
+  {
+   "workshop_id": "3596903773",
+   "title": "'84 Buick Electra",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "84buickElectra",
+     "src": "mods/3596903773/mods/84buickElectra",
+     "mod_id": "84buickElectra"
+    }
+   ],
+   "bytes": 15881798,
+   "tree_sha256": "39f355517fc89f1465497d3105304b76889a2cb6cb7753e9325e72d2d0919e53",
+   "mod_ids": [
+    "84buickElectra"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3601417745",
+   "title": "'84 Oldsmobile 98 Regency",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "84oldsmobile98",
+     "src": "mods/3601417745/mods/84oldsmobile98",
+     "mod_id": "84oldsmobile98"
+    }
+   ],
+   "bytes": 15446784,
+   "tree_sha256": "af2655322b0f664fafe07eec10f62abc3fbeec7e9b929d1aa3d078e02f04018b",
+   "mod_ids": [
+    "84oldsmobile98"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3610005735",
+   "title": "ALICE Gear [B41/B42.20]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "AliceMod",
+     "src": "mods/3610005735/mods/AliceMod",
+     "mod_id": "AliceGear"
+    }
+   ],
+   "bytes": 27761777,
+   "tree_sha256": "be66810dda5607915d4a42b92d61c1998b9060c8e2ad41b7e51f67f0eda0a8c9",
+   "mod_ids": [
+    "AliceGear"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3614034284",
+   "title": "'85 Chevrolet Step-Van",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "85chevyStepVan",
+     "src": "mods/3614034284/mods/85chevyStepVan",
+     "mod_id": "85chevyStepVan"
+    },
+    {
+     "name": "85chevyStepVanExpanded",
+     "src": "mods/3614034284/mods/85chevyStepVanExpanded",
+     "mod_id": "85chevyStepVanexpanded"
+    }
+   ],
+   "bytes": 28374271,
+   "tree_sha256": "ce773e4ac72c2909ab4e3d8bf81bd011f4a6742317d66c85a01d06449c25ea5a",
+   "mod_ids": [
+    "85chevyStepVanexpanded",
+    "85chevyStepVan"
+   ],
+   "requires": [
+    "85chevystepvan",
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3615135168",
+   "title": "Zombie Virus Vaccine [B42.14 to B42.21 - SP/MP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ResearchLabInternProfession",
+     "src": "mods/3615135168/mods/ResearchLabInternProfession",
+     "mod_id": "ResearchLabInternProfession"
+    },
+    {
+     "name": "ZVirusVaccine42BETA",
+     "src": "mods/3615135168/mods/ZVirusVaccine42BETA",
+     "mod_id": "ZVirusVaccine42BETA"
+    }
+   ],
+   "bytes": 83640892,
+   "tree_sha256": "bdcab731e3114bb62c4eba9f5ffd2e0555e0b8b1fc10e78443d0710d7935ee6c",
+   "mod_ids": [
+    "ResearchLabInternProfession",
+    "ZVirusVaccine42BETA"
+   ],
+   "requires": [
+    "zvirusvaccine42beta"
+   ]
+  },
+  {
+   "workshop_id": "3615422211",
+   "title": "Use Items While Walking B42.20.2 STABLE MP",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Use Items While Walking",
+     "src": "mods/3615422211/mods/Use Items While Walking",
+     "mod_id": "UseItemsWhileWalkingB42"
+    }
+   ],
+   "bytes": 141772,
+   "tree_sha256": "f64c1880c4f716eb1d3ecd4c77398ff0f46c8cf8e2d349c4c8c105de803cc797",
+   "mod_ids": [
+    "UseItemsWhileWalkingB42"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3618557184",
+   "title": "Here Goes the Sun [B42MP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "HereGoesTheSun",
+     "src": "mods/3618557184/mods/HereGoesTheSun",
+     "mod_id": "HereGoesTheSun"
+    }
+   ],
+   "bytes": 4466147,
+   "tree_sha256": "46c364e81a437b877eb8ab97af65d205ff8d4113592c0ae855bbf6dc165b1cfa",
+   "mod_ids": [
+    "HereGoesTheSun"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3619862853",
+   "title": "ZombieBuddy",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "ZombieBuddy",
+     "src": "mods/3619862853/mods/ZombieBuddy",
+     "mod_id": "ZombieBuddy"
+    }
+   ],
+   "bytes": 14466055,
+   "tree_sha256": "22085532ab290d4f9deada3a27088f379ae0826279ec9aa1f536ccd91f0e9372",
+   "mod_ids": [
+    "ZombieBuddy"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3624971238",
+   "title": "Yet Another PZ LIbrary",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "YetAnotherPZLib",
+     "src": "mods/3624971238/mods/YetAnotherPZLib",
+     "mod_id": "YAPZLib"
+    }
+   ],
+   "bytes": 93651,
+   "tree_sha256": "0e6193d5c58744a059f9585f38c26fca4f4059be574b862e7d72139adc5bbe5a",
+   "mod_ids": [
+    "YAPZLib"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3626823538",
+   "title": "Hoarder's Delight - Box & Carton Bulk Packing [42.21 Stable]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "OCsPacking",
+     "src": "mods/3626823538/mods/OCsPacking",
+     "mod_id": "OCsPacking"
+    }
+   ],
+   "bytes": 241861,
+   "tree_sha256": "03b715fb3fa6a22e6a6c40060384a0046249b552ab5e11aabd705bd2148fef82",
+   "mod_ids": [
+    "OCsPacking"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3628736763",
+   "title": "Community Tile Pack",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "CommunityTilePack",
+     "src": "mods/3628736763/mods/CommunityTilePack",
+     "mod_id": "UnofficialMappersCommunityTilePack"
+    }
+   ],
+   "bytes": 219636470,
+   "tree_sha256": "504bcb38608b6c306472bd8d43291261bd6e5b64fbd222f9ff302c00fc060b6a",
+   "mod_ids": [
+    "UnofficialMappersCommunityTilePack"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3629835761",
+   "title": "Ladders?! B42.20 SP/MP (Unofficial)",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Ladders",
+     "src": "mods/3629835761/mods/Ladders",
+     "mod_id": "Ladders42204"
+    },
+    {
+     "name": "LaddersOld",
+     "src": "mods/3629835761/mods/LaddersOld",
+     "mod_id": "Ladders42131"
+    }
+   ],
+   "bytes": 1628130,
+   "tree_sha256": "d8ca00631886a61c13e184df2b25aed8cbb1553cbbadbcf3470e002ee56a82b7",
+   "mod_ids": [
+    "Ladders42131",
+    "Ladders42204"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3631989559",
+   "title": "'69 Dodge Charger",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "69charger",
+     "src": "mods/3631989559/mods/69charger",
+     "mod_id": "69charger"
+    }
+   ],
+   "bytes": 21183602,
+   "tree_sha256": "d232ba12e8b889f5cd7c536fa578d34fb06b9a4dc254a0a5e22c7f11c5b2d47b",
+   "mod_ids": [
+    "69charger"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3635394848",
+   "title": "[B42MP] Frockin Splendor! Vol.5",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Frockin Splendor! Vol.5",
+     "src": "mods/3635394848/mods/Frockin Splendor! Vol.5",
+     "mod_id": "GanydeBielovzki's Frockin Splendor! Vol.5"
+    }
+   ],
+   "bytes": 258084965,
+   "tree_sha256": "baaa1af060772f081bb70c5863d87b97d28d1187e90ddd810ff313846ca35f9a",
+   "mod_ids": [
+    "GanydeBielovzki's Frockin Splendor! Vol.5"
+   ],
+   "requires": [
+    "ganydebielovzki's frockin backstage!"
+   ]
+  },
+  {
+   "workshop_id": "3635591071",
+   "title": "Realistic Dashboard & Gauges [MP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "RealisticDashboardAndGauges",
+     "src": "mods/3635591071/mods/RealisticDashboardAndGauges",
+     "mod_id": "RealisticDash"
+    }
+   ],
+   "bytes": 57160920,
+   "tree_sha256": "495e329b166a3585c8083238debfefa9c2be682c62097164a74d0b957ebc6c57",
+   "mod_ids": [
+    "RealisticDash"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3635856965",
+   "title": "Better Auto Mechanics [B42.20.4+ MP+SP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "better-auto-mechanics",
+     "src": "mods/3635856965/mods/better-auto-mechanics",
+     "mod_id": "better-auto-mechanics"
+    }
+   ],
+   "bytes": 1497871,
+   "tree_sha256": "dbd0257b18fbca53b57655f055a4953ca31c495626a6660833f220ee6d6ead01",
+   "mod_ids": [
+    "better-auto-mechanics"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3642935062",
+   "title": "'70 Plymouth Road Runner",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "70roadRunner",
+     "src": "mods/3642935062/mods/70roadRunner",
+     "mod_id": "70roadRunner"
+    }
+   ],
+   "bytes": 11383932,
+   "tree_sha256": "8a998082d3fadc060a0d9ef540151f8f65481bab312225963fc5e60fb7b1814d",
+   "mod_ids": [
+    "70roadRunner"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3647735736",
+   "title": "'95 Subaru Impreza WRX STI",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "95impreza",
+     "src": "mods/3647735736/mods/95impreza",
+     "mod_id": "95impreza"
+    }
+   ],
+   "bytes": 10570689,
+   "tree_sha256": "915e6d10da80623b37a376d9c55c579fa611d7a1f27913bb320580c66fdbcd97",
+   "mod_ids": [
+    "95impreza"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3647736504",
+   "title": "'96 Mitsubishi Lancer EVO IV",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "96lancerEVO",
+     "src": "mods/3647736504/mods/96lancerEVO",
+     "mod_id": "96lancerEVO"
+    }
+   ],
+   "bytes": 11342232,
+   "tree_sha256": "8ada698a35db7b7abdaecb8fa09df980556915d3b1e7fe4119c5fbc036604e5f",
+   "mod_ids": [
+    "96lancerEVO"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3650112103",
+   "title": "Stop Jumping Off Stairs",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "StopJumpingOffStairs",
+     "src": "mods/3650112103/mods/StopJumpingOffStairs",
+     "mod_id": "StopJumpingOffStairs"
+    }
+   ],
+   "bytes": 1749886,
+   "tree_sha256": "adfd5f53ac825baa3538980391f11e260f9ddaf5d7a809ac6541d7fed4d49870",
+   "mod_ids": [
+    "StopJumpingOffStairs"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3650168851",
+   "title": "[B42] Horticulture",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "B42Horticulture",
+     "src": "mods/3650168851/mods/B42Horticulture",
+     "mod_id": "B42Horticulture"
+    }
+   ],
+   "bytes": 503386,
+   "tree_sha256": "9e2029cf7f518e76dcb6e85be0708e0df3d0aed73be655ab40db7ac726d014a4",
+   "mod_ids": [
+    "B42Horticulture"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3653092321",
+   "title": "Immersive Hotwire",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ImmersiveHotwire",
+     "src": "mods/3653092321/mods/ImmersiveHotwire",
+     "mod_id": "immersive_hotwire"
+    }
+   ],
+   "bytes": 1472506,
+   "tree_sha256": "37dba5b46e7d1def551bc907861404468cf35d9132a6f0cf9dabff3b43a60e19",
+   "mod_ids": [
+    "immersive_hotwire"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3656190498",
+   "title": "Reactive Sound Events",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ReactiveSE",
+     "src": "mods/3656190498/mods/ReactiveSE",
+     "mod_id": "ReactiveSE"
+    }
+   ],
+   "bytes": 20319971,
+   "tree_sha256": "6d4606518d2d7a62d59873164dadb54ca5c4cc989576bea4d60f6381d42bf5b9",
+   "mod_ids": [
+    "ReactiveSE"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3660235667",
+   "title": "Ash's Delta Holster Vanilla Replacer",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Delta",
+     "src": "mods/3660235667/mods/Delta",
+     "mod_id": "DeltaSeries"
+    }
+   ],
+   "bytes": 460484,
+   "tree_sha256": "9ec8180adc96753e749ae78e7d982b3cd0a7ad48c5a53bde3f9f48089c2a00d3",
+   "mod_ids": [
+    "DeltaSeries"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3660382016",
+   "title": "Body Count Rewards",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "BodyCountRewards",
+     "src": "mods/3660382016/mods/BodyCountRewards",
+     "mod_id": "BCR"
+    }
+   ],
+   "bytes": 2164541,
+   "tree_sha256": "21b09e1264064e34ff280adb53069c30f1cd7709a130a5c4d4070be05a1f0366",
+   "mod_ids": [
+    "BCR"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3665548194",
+   "title": "Legion Weaponry",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Legion",
+     "src": "mods/3665548194/mods/Legion",
+     "mod_id": "LEGION18"
+    }
+   ],
+   "bytes": 4021929,
+   "tree_sha256": "7e34ca94c9a755fca83cd58bae84bec1751070512c161e5925d70680264c2935",
+   "mod_ids": [
+    "LEGION18"
+   ],
+   "requires": [
+    "starlitlibrary"
+   ]
+  },
+  {
+   "workshop_id": "3666137359",
+   "title": "Rocco's Tiles",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Rocco_Tiles",
+     "src": "mods/3666137359/mods/Rocco_Tiles",
+     "mod_id": "Roccos_Tiles"
+    }
+   ],
+   "bytes": 20851505,
+   "tree_sha256": "51a27aaf033eb52a5c347d36a5bd50c6875db59b4fb8203a4d7a1bb42286fc74",
+   "mod_ids": [
+    "Roccos_Tiles"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3666180085",
+   "title": "[B42 SP/MP]Dawn Town",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "DawnTown",
+     "src": "mods/3666180085/mods/DawnTown",
+     "mod_id": "dawn_town"
+    }
+   ],
+   "bytes": 2395111,
+   "tree_sha256": "df45e1cc2424734d1d8855211fbcb7fc7ca107ff6ea84b154b3e21b9d8feafd3",
+   "mod_ids": [
+    "dawn_town"
+   ],
+   "requires": [
+    "roccos_tiles"
+   ]
+  },
+  {
+   "workshop_id": "3669451917",
+   "title": "Snowman [42MP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Snowman",
+     "src": "mods/3669451917/mods/Snowman",
+     "mod_id": "Snowman"
+    }
+   ],
+   "bytes": 1489759,
+   "tree_sha256": "4d42769cca78c652ba70a46359c93bea688be90da266b6682fb01d260fb653d9",
+   "mod_ids": [
+    "Snowman"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3670063857",
+   "title": "'70 Ford Escort",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "70fordEscort",
+     "src": "mods/3670063857/mods/70fordEscort",
+     "mod_id": "70fordEscort"
+    }
+   ],
+   "bytes": 25148749,
+   "tree_sha256": "de848625c5f547acddb714078d987f3fee34f024f443a6427f5d09b294e24eef",
+   "mod_ids": [
+    "70fordEscort"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3670064951",
+   "title": "Campers!",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "KI5campers",
+     "src": "mods/3670064951/mods/KI5campers",
+     "mod_id": "KI5campers"
+    }
+   ],
+   "bytes": 28114112,
+   "tree_sha256": "3d14b6a2e004024c5cbb03f1191885a378c91e86d8c0cc935cd2302bebfbaa36",
+   "mod_ids": [
+    "KI5campers"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3671176591",
+   "title": "dustinguished bolt cutters",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "dustinguished_bolt_cutters",
+     "src": "mods/3671176591/mods/dustinguished_bolt_cutters",
+     "mod_id": "dustinguished_bolt_cutters"
+    }
+   ],
+   "bytes": 423181,
+   "tree_sha256": "b38ba0f6aee8aaa6ea4ead34ba680515685f305798646aaeb8ec5a1b3a8af470",
+   "mod_ids": [
+    "dustinguished_bolt_cutters"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3675740871",
+   "title": "Dead Man's Dossier [B42][MP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "DeadMansDossier",
+     "src": "mods/3675740871/mods/DeadMansDossier",
+     "mod_id": "DeadMansDossier"
+    }
+   ],
+   "bytes": 477110,
+   "tree_sha256": "055523e4b9b2cc1eed5776da55fc0dbea40fd0f847674120e74771200c9631ce",
+   "mod_ids": [
+    "DeadMansDossier"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3677017550",
+   "title": "Tactical Hold",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "TacHold",
+     "src": "mods/3677017550/mods/TacHold",
+     "mod_id": "TacHold"
+    },
+    {
+     "name": "TacHold Aiming requirement",
+     "src": "mods/3677017550/mods/TacHold Aiming requirement",
+     "mod_id": "TacHold AR"
+    }
+   ],
+   "bytes": 2337848,
+   "tree_sha256": "1da84dd7aa392e2a82d5351ac6b9d698d822595140f887c359e8d8bd3879e3e6",
+   "mod_ids": [
+    "TacHold AR",
+    "TacHold"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3677910297",
+   "title": "BBQ Propane Protection (B42)",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "BBQProtection",
+     "src": "mods/3677910297/mods/BBQProtection",
+     "mod_id": "BBQProtection"
+    }
+   ],
+   "bytes": 5754,
+   "tree_sha256": "575301fcff9a58d0f37b90d7ad140821a2e76aca2deedab30ff7000ccda720a3",
+   "mod_ids": [
+    "BBQProtection"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3680633169",
+   "title": "Tactical Pistol Hold",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "TacPHold",
+     "src": "mods/3680633169/mods/TacPHold",
+     "mod_id": "TacHold Pistol"
+    },
+    {
+     "name": "TacPHold Aiming requirement",
+     "src": "mods/3680633169/mods/TacPHold Aiming requirement",
+     "mod_id": "TacHold Pistol AR"
+    }
+   ],
+   "bytes": 3482508,
+   "tree_sha256": "1efc9fab655dc6b8323266b7b7a7ccb58fcd25171b07c77105bb9af2b87e9507",
+   "mod_ids": [
+    "TacHold Pistol",
+    "TacHold Pistol AR"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3684254299",
+   "title": "'84 Chevrolet Corvette",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "84corvette",
+     "src": "mods/3684254299/mods/84corvette",
+     "mod_id": "84corvette"
+    }
+   ],
+   "bytes": 17546930,
+   "tree_sha256": "7c61556eba97a24f65dc3db4d7ad6932be461853dcb44fdfe51edc680d8beb31",
+   "mod_ids": [
+    "84corvette"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3684808606",
+   "title": "Repair Wall Cracks [B42 SP/MP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "RepairWallCracks_B42",
+     "src": "mods/3684808606/mods/RepairWallCracks_B42",
+     "mod_id": "RepairWallCracks_B42"
+    }
+   ],
+   "bytes": 408597,
+   "tree_sha256": "534ee91429bfa77396c0fcb98d45e9b286c4d150be64b729ea7edfbe44f35193",
+   "mod_ids": [
+    "RepairWallCracks_B42"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3687394815",
+   "title": "Taillights and Stoplights",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Taillights and Stoplights",
+     "src": "mods/3687394815/mods/Taillights and Stoplights",
+     "mod_id": "TaillightsAndStoplights"
+    }
+   ],
+   "bytes": 661941,
+   "tree_sha256": "695d76c355a8041006444ae3a3fa3bc8a2bd7402deacc079e4e4891822ad2b7b",
+   "mod_ids": [
+    "TaillightsAndStoplights"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3692027888",
+   "title": "Chainsaw B42",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ChainsawB42",
+     "src": "mods/3692027888/mods/ChainsawB42",
+     "mod_id": "ChainsawB42"
+    }
+   ],
+   "bytes": 1651171,
+   "tree_sha256": "e96d4c44afa011ccd8c04d9bfe0b3801a090b9ae05fd4ed7a9f92a16bb3871e8",
+   "mod_ids": [
+    "ChainsawB42"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3692043319",
+   "title": "Zombies Have Cigarettes",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Zombies Have Cigarettes",
+     "src": "mods/3692043319/mods/Zombies Have Cigarettes",
+     "mod_id": "ZombsHaveCigs"
+    }
+   ],
+   "bytes": 1874749,
+   "tree_sha256": "dafedb04e8f4e976653077ca910410273afa27ea0eefa39fca0c891be7f97332",
+   "mod_ids": [
+    "ZombsHaveCigs"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3701820916",
+   "title": "[B41/B42] Gas Mask Replacement",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "gasmask",
+     "src": "mods/3701820916/mods/gasmask",
+     "mod_id": "odz_gasmaskM40_replacer"
+    }
+   ],
+   "bytes": 1032358,
+   "tree_sha256": "78623f44ebe5d56d289cc9eb2cf4e36f8f576db322194966e06c7370c98dd72e",
+   "mod_ids": [
+    "odz_gasmaskM40_replacer"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3703948448",
+   "title": "'79 Chevrolet Camaro",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "79camaro",
+     "src": "mods/3703948448/mods/79camaro",
+     "mod_id": "79camaro"
+    }
+   ],
+   "bytes": 18475426,
+   "tree_sha256": "1f7c23b80cecf4740ca724cd017e03e40dc1d4961a9aae884523eced2f5ccbc0",
+   "mod_ids": [
+    "79camaro"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3713220544",
+   "title": "Rollin'n'Towin",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "RollinNTowin",
+     "src": "mods/3713220544/mods/RollinNTowin",
+     "mod_id": "RollinNTowin"
+    }
+   ],
+   "bytes": 110228,
+   "tree_sha256": "9c9dcad71541ea929b5369c82f4d226506d7800c50109de496dc480c9c38b3fc",
+   "mod_ids": [
+    "RollinNTowin"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3713977259",
+   "title": "Saw All Logs Drop Planks",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Saw All Logs Drop Planks",
+     "src": "mods/3713977259/mods/Saw All Logs Drop Planks",
+     "mod_id": "SawAllLogsDropPlanks"
+    }
+   ],
+   "bytes": 538096,
+   "tree_sha256": "b23a4bff6c79a671146defa58e8c57cb8e723fe079a8b3442c7db2113efcc7c3",
+   "mod_ids": [
+    "SawAllLogsDropPlanks"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3717099183",
+   "title": "Working Knowledge - Lootable Skill Documents",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "WorkingKnowledge",
+     "src": "mods/3717099183/mods/WorkingKnowledge",
+     "mod_id": "WorkingKnowledge"
+    }
+   ],
+   "bytes": 6629569,
+   "tree_sha256": "5e4e12aba5a271b694a44f0a98e5382e2b4eb6fd37ed5f5b460284e5652bb253",
+   "mod_ids": [
+    "WorkingKnowledge"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3717902500",
+   "title": "JB's Bugs In Lights [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "JB_BugsInLights",
+     "src": "mods/3717902500/mods/JB_BugsInLights",
+     "mod_id": "JB_BugsInLights"
+    }
+   ],
+   "bytes": 1377610,
+   "tree_sha256": "e783a6e98bd52a345f844d5ee4c2c5d0fe3c751ddf90ef01a6fb319bea8d0496",
+   "mod_ids": [
+    "JB_BugsInLights"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3722064198",
+   "title": "[42.21MP] Gunworks Framework",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Gunworks_gang_framework",
+     "src": "mods/3722064198/mods/Gunworks_gang_framework",
+     "mod_id": "SWMG"
+    }
+   ],
+   "bytes": 822427,
+   "tree_sha256": "8bbeeede874563365f921986b8f9a775fa8da5a8dbae06a11723b6a2e85044bb",
+   "mod_ids": [
+    "SWMG"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3722134990",
+   "title": "[42.21MP] GoM - Guns of Marz",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "GunsOfMarz",
+     "src": "mods/3722134990/mods/GunsOfMarz",
+     "mod_id": "GunsOfMarz"
+    },
+    {
+     "name": "GunsOfMarzPreviousVersion",
+     "src": "mods/3722134990/mods/GunsOfMarzPreviousVersion",
+     "mod_id": "MarzGuns"
+    }
+   ],
+   "bytes": 113491883,
+   "tree_sha256": "b89a7a4ee4e6df2f9d280940b395c5741d56a23b287299668fe73645945d0742",
+   "mod_ids": [
+    "GunsOfMarz",
+    "MarzGuns"
+   ],
+   "requires": [
+    "swmg"
+   ]
+  },
+  {
+   "workshop_id": "3725311427",
+   "title": "Plysken Solar Revolution",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Plysken Solar Revolution",
+     "src": "mods/3725311427/mods/Plysken Solar Revolution",
+     "mod_id": "PSR"
+    }
+   ],
+   "bytes": 6621272,
+   "tree_sha256": "998c14a2bfe33e5050a537c252623723ed07772a36c8ae896fcb0034aa211951",
+   "mod_ids": [
+    "PSR"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3725497089",
+   "title": "Computer Mod",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ComputerMod",
+     "src": "mods/3725497089/mods/ComputerMod",
+     "mod_id": "ComputerModkum"
+    }
+   ],
+   "bytes": 8230175,
+   "tree_sha256": "b83c7d84ce92b2caa516c3b7abf329a84d19b26e181325b9fae521b7128e8516",
+   "mod_ids": [
+    "ComputerModkum"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3726526329",
+   "title": "'78 Lamborghini Countach",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "78lamboCountach",
+     "src": "mods/3726526329/mods/78lamboCountach",
+     "mod_id": "78lamboCountach"
+    }
+   ],
+   "bytes": 15039503,
+   "tree_sha256": "47ef403ec6ee6e9f5fbdb60d6be8e5404cb7a271b0fafb490a1c642a968b5dc0",
+   "mod_ids": [
+    "78lamboCountach"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3730833846",
+   "title": "'76 Chrysler New Yorker",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "76chryslerNewYorker",
+     "src": "mods/3730833846/mods/76chryslerNewYorker",
+     "mod_id": "76chryslerNewYorker"
+    }
+   ],
+   "bytes": 12906279,
+   "tree_sha256": "ed3445fbe4e2054e22f33918285dd5a9845f780754681d364507098ccc8205fa",
+   "mod_ids": [
+    "76chryslerNewYorker"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3734639991",
+   "title": "Seed Season Indicator",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SeedSeasonIndicator",
+     "src": "mods/3734639991/mods/SeedSeasonIndicator",
+     "mod_id": "SeedSeasonIndicator"
+    }
+   ],
+   "bytes": 100921,
+   "tree_sha256": "5f703b741a65ac2b649f7e6031e836e5af36f9182b849488136c5f7a9ba72fb8",
+   "mod_ids": [
+    "SeedSeasonIndicator"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3736813592",
+   "title": "[B42MP] Frockin Stompers!",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Frockin Stompers!",
+     "src": "mods/3736813592/mods/Frockin Stompers!",
+     "mod_id": "GanydeBielovzki's Frockin Stompers!"
+    },
+    {
+     "name": "Frockin Stompers! Vanilla Footwear Replacer",
+     "src": "mods/3736813592/mods/Frockin Stompers! Vanilla Footwear Replacer",
+     "mod_id": "GanydeBielovzki's Frockin Stompers! VFR"
+    }
+   ],
+   "bytes": 36646188,
+   "tree_sha256": "6354fd8841397aa4a231c21f6675ed838061ebb6c17d10cd6a3d2697e7b91dab",
+   "mod_ids": [
+    "GanydeBielovzki's Frockin Stompers! VFR",
+    "GanydeBielovzki's Frockin Stompers!"
+   ],
+   "requires": [
+    "ganydebielovzki's frockin backstage!"
+   ]
+  },
+  {
+   "workshop_id": "3739173520",
+   "title": "Plysken Irrigation Pipes",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Plysken Irrigation Pipes",
+     "src": "mods/3739173520/mods/Plysken Irrigation Pipes",
+     "mod_id": "PIP"
+    }
+   ],
+   "bytes": 2861186,
+   "tree_sha256": "592df7dd011ccfb854d33ddff19406bc2452ca4b5673fcf2a22a8735bb9a19c5",
+   "mod_ids": [
+    "PIP"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3739256725",
+   "title": "New Music [42+]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Talis New Music",
+     "src": "mods/3739256725/mods/Talis New Music",
+     "mod_id": "NewMusic"
+    }
+   ],
+   "bytes": 38976943,
+   "tree_sha256": "6286cddc63e99cae754dbe0f243f00ca0ae0ce99d2fffd6887e7d75814ac170c",
+   "mod_ids": [
+    "NewMusic"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3743371090",
+   "title": "'73 NISSAN Skyline GT-R",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "73nissanGTR",
+     "src": "mods/3743371090/mods/73nissanGTR",
+     "mod_id": "73nissanGTR"
+    }
+   ],
+   "bytes": 9968872,
+   "tree_sha256": "c87acd462b334a4f937bda92020b340325e34bbc18687b707d57d5d6c5c70996",
+   "mod_ids": [
+    "73nissanGTR"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3749026793",
+   "title": "[B42.20] Carry Visible Items In Hands [WIP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "CarriableItems",
+     "src": "mods/3749026793/mods/CarriableItems",
+     "mod_id": "CVI"
+    }
+   ],
+   "bytes": 3272705,
+   "tree_sha256": "0353222f5e89c1572b288eec51edee1c66c791323c57416a69b24637eaee67ea",
+   "mod_ids": [
+    "CVI"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3751364201",
+   "title": "New Music - Greatest Hits",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "NMGreatestHits",
+     "src": "mods/3751364201/mods/NMGreatestHits",
+     "mod_id": "NMGreatestHits"
+    }
+   ],
+   "bytes": 786514199,
+   "tree_sha256": "a7684fe98f361eec1cd6815c47a1251ba64ef71dc2a64ed5e3dd8867c6b68313",
+   "mod_ids": [
+    "NMGreatestHits"
+   ],
+   "requires": [
+    "newmusic"
+   ]
+  },
+  {
+   "workshop_id": "3755185651",
+   "title": "dustinguished cleaning wipes",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "dustinguished_cleaning_wipes",
+     "src": "mods/3755185651/mods/dustinguished_cleaning_wipes",
+     "mod_id": "dustinguished_cleaning_wipes"
+    }
+   ],
+   "bytes": 245091,
+   "tree_sha256": "eabe4f984203685ad73e5c9fcd91a2f80532a012260c90d11e640f45ef53dc5d",
+   "mod_ids": [
+    "dustinguished_cleaning_wipes"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3755993986",
+   "title": "Gas Pump Indicator",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "GasPumpIndicator",
+     "src": "mods/3755993986/mods/GasPumpIndicator",
+     "mod_id": "GasPumpIndicator"
+    }
+   ],
+   "bytes": 192515,
+   "tree_sha256": "5a4d4a59d7453dbb8674e0856f8b87116f41c5c084783073e18a4eaf7ff17414",
+   "mod_ids": [
+    "GasPumpIndicator"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3756687957",
+   "title": "Where My Sledgies At?",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Where_My_Sledgies_At",
+     "src": "mods/3756687957/mods/Where_My_Sledgies_At",
+     "mod_id": "Where_My_Sledgies_At"
+    }
+   ],
+   "bytes": 561275,
+   "tree_sha256": "1b32d13da1cc1fbd8a53b9bd2162a16fec99704460698b4073ca92d7f4538073",
+   "mod_ids": [
+    "Where_My_Sledgies_At"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3756938756",
+   "title": "'69 Ford Mustang",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "69fordMustang",
+     "src": "mods/3756938756/mods/69fordMustang",
+     "mod_id": "69fordMustang"
+    },
+    {
+     "name": "69fordMustangExtra",
+     "src": "mods/3756938756/mods/69fordMustangExtra",
+     "mod_id": "69fordMustangExtra"
+    }
+   ],
+   "bytes": 26896012,
+   "tree_sha256": "369a09a7ae0c6866ee3e31da9d661627009fa1ba4b6961831ba66cea4fbe25c1",
+   "mod_ids": [
+    "69fordMustangExtra",
+    "69fordMustang"
+   ],
+   "requires": [
+    "69fordmustang",
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3760471726",
+   "title": "New Music - Classical Music Mix",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "NewMusic_CMM",
+     "src": "mods/3760471726/mods/NewMusic_CMM",
+     "mod_id": "NewMusic_CMM"
+    }
+   ],
+   "bytes": 65081316,
+   "tree_sha256": "c12299e128526dbc4ea50effd5aa79c5d79135687b8ce6bcf331b225b2035b0c",
+   "mod_ids": [
+    "NewMusic_CMM"
+   ],
+   "requires": [
+    "newmusic"
+   ]
+  },
+  {
+   "workshop_id": "3760534563",
+   "title": "NeatUI Hairstyler [42.21]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "NeatUI_Hairstyler",
+     "src": "mods/3760534563/mods/NeatUI_Hairstyler",
+     "mod_id": "NeatUI_Hairstyler"
+    }
+   ],
+   "bytes": 1495152,
+   "tree_sha256": "f07eeb17a69c6b267f7a814e1549251b75a30d49a1b2786271a916f25f98734a",
+   "mod_ids": [
+    "NeatUI_Hairstyler"
+   ],
+   "requires": [
+    "neatui_framework"
+   ]
+  },
+  {
+   "workshop_id": "3761077099",
+   "title": "[B42] Vanilla Firearms Expansion [CLASSIC]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "VFE",
+     "src": "mods/3761077099/mods/VFE",
+     "mod_id": "VFExpansion1"
+    }
+   ],
+   "bytes": 37137892,
+   "tree_sha256": "842bd18c7d278223aceab313eadd4aa58aa442ce4a1a3e9585c5c76e65374f7c",
+   "mod_ids": [
+    "VFExpansion1"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3762355926",
+   "title": "[B42] Vanilla Firearms Expansion - Post 93 [CLASSIC]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "VFEP93",
+     "src": "mods/3762355926/mods/VFEP93",
+     "mod_id": "VFExpansion3"
+    }
+   ],
+   "bytes": 11202566,
+   "tree_sha256": "acabe5586560dd954753412522395ceb3b06d8335c39aca2c8911e3ae93775c1",
+   "mod_ids": [
+    "VFExpansion3"
+   ],
+   "requires": [
+    "vfexpansion1"
+   ]
+  },
+  {
+   "workshop_id": "3763470184",
+   "title": "Propane Exchange Cabinets",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "PropaneExchangeCabinet",
+     "src": "mods/3763470184/mods/PropaneExchangeCabinet",
+     "mod_id": "PropaneExchangeCabinet"
+    }
+   ],
+   "bytes": 1641816,
+   "tree_sha256": "5fad5cb6ce0eaaf449b2d832c2cb40ecf8dd9d7a66b0d52e2cf9d3486b5f5ff0",
+   "mod_ids": [
+    "PropaneExchangeCabinet"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3765077081",
+   "title": "New Music - Graves 70's Mixtape",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "NewMusicG70s",
+     "src": "mods/3765077081/mods/NewMusicG70s",
+     "mod_id": "NewMusicG70s"
+    }
+   ],
+   "bytes": 501539085,
+   "tree_sha256": "698d7cdf9dafaa2028a165a7d99614339e12c108b37f7918f7b7acca6fb09fe5",
+   "mod_ids": [
+    "NewMusicG70s"
+   ],
+   "requires": [
+    "newmusic"
+   ]
+  },
+  {
+   "workshop_id": "3765079521",
+   "title": "New Music - Graves 80's Mixtape",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "NewMusicG80s",
+     "src": "mods/3765079521/mods/NewMusicG80s",
+     "mod_id": "NewMusicG80s"
+    }
+   ],
+   "bytes": 537795971,
+   "tree_sha256": "098d59791ee968996b69211fdfa7425cb78dd7f8e1208dbaaf782f13e25ba113",
+   "mod_ids": [
+    "NewMusicG80s"
+   ],
+   "requires": [
+    "newmusic"
+   ]
+  },
+  {
+   "workshop_id": "3765670104",
+   "title": "New Music - Graves 90's Mixtape",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "NewMusicG90s",
+     "src": "mods/3765670104/mods/NewMusicG90s",
+     "mod_id": "NewMusicG90s"
+    }
+   ],
+   "bytes": 494040042,
+   "tree_sha256": "bcb225a4f790f4c61068ee0d2ce2aeaa599bbbd25e041b05b583f1ec7ffbb8f1",
+   "mod_ids": [
+    "NewMusicG90s"
+   ],
+   "requires": [
+    "newmusic"
+   ]
+  },
+  {
+   "workshop_id": "3766571591",
+   "title": "'70 Chevrolet Chevelle / El Camino",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "70chevelle",
+     "src": "mods/3766571591/mods/70chevelle",
+     "mod_id": "70chevelle"
+    }
+   ],
+   "bytes": 46103130,
+   "tree_sha256": "86306318e235de821c65e1f416e3b13996f501289318ff06fd4074d4843413ac",
+   "mod_ids": [
+    "70chevelle"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3768745256",
+   "title": "Easy Exercise",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "AutoExercisePlus",
+     "src": "mods/3768745256/mods/AutoExercisePlus",
+     "mod_id": "AutoExercisePlus"
+    }
+   ],
+   "bytes": 104635,
+   "tree_sha256": "8dbe68a14b10cfaab58860d17a639d3c44108fad83ca0024a9a5e7c3cc1bb1e6",
+   "mod_ids": [
+    "AutoExercisePlus"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3769335201",
+   "title": "NVG [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "NVG",
+     "src": "mods/3769335201/mods/NVG",
+     "mod_id": "CorvusNVG"
+    },
+    {
+     "name": "NVGGuns93Patch",
+     "src": "mods/3769335201/mods/NVGGuns93Patch",
+     "mod_id": "CorvusNVG_Guns93Patch"
+    },
+    {
+     "name": "NVGVFEPatch",
+     "src": "mods/3769335201/mods/NVGVFEPatch",
+     "mod_id": "CorvusNVG_VFEPatch"
+    }
+   ],
+   "bytes": 5902386,
+   "tree_sha256": "d729d32c118af1199767ada9ab2fb5b694d46578051e050e30269bbe96ba3a90",
+   "mod_ids": [
+    "CorvusNVG_VFEPatch",
+    "CorvusNVG_Guns93Patch",
+    "CorvusNVG"
+   ],
+   "requires": [
+    "corvusnvg",
+    "guns93",
+    "vfexpansion1"
+   ]
+  },
+  {
+   "workshop_id": "3770890864",
+   "title": "'91 Lexus LS400",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "91lexusLS400",
+     "src": "mods/3770890864/mods/91lexusLS400",
+     "mod_id": "91lexusLS400"
+    }
+   ],
+   "bytes": 11404279,
+   "tree_sha256": "457fbae7bd7e33110a28f9f91daeb4ee553262a797afd83d782d2b289fde39b8",
+   "mod_ids": [
+    "91lexusLS400"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3772269882",
+   "title": "[B42] Knox Buildworks",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "KnoxBuildworks",
+     "src": "mods/3772269882/mods/KnoxBuildworks",
+     "mod_id": "KnoxBuildworks"
+    },
+    {
+     "name": "KnoxBuildworks_Vanilla_Expanded",
+     "src": "mods/3772269882/mods/KnoxBuildworks_Vanilla_Expanded",
+     "mod_id": "KnoxBuildworksVanillaExpanded"
+    }
+   ],
+   "bytes": 22067504,
+   "tree_sha256": "0704bca87aed89c16dea00c0302aa61615991d1fac2572aabca5ce8e9371c732",
+   "mod_ids": [
+    "KnoxBuildworks",
+    "KnoxBuildworksVanillaExpanded"
+   ],
+   "requires": [
+    "elyonlib",
+    "knoxbuildworks"
+   ]
+  },
+  {
+   "workshop_id": "3774789651",
+   "title": "Long Term Preservation [42.20]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "LongTermPreservation4220",
+     "src": "mods/3774789651/mods/LongTermPreservation4220",
+     "mod_id": "SKITTLE_LongTermPreservation4220"
+    }
+   ],
+   "bytes": 239131,
+   "tree_sha256": "17caf1f0f63e6953ad58dab2de27758afe509fb2581857e4711c8fc43ada78e4",
+   "mod_ids": [
+    "SKITTLE_LongTermPreservation4220"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3774826484",
+   "title": "Jumbo Tree Indoor Fix",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "JumboTreeIndoorFix",
+     "src": "mods/3774826484/mods/JumboTreeIndoorFix",
+     "mod_id": "JumboTreeIndoorFix"
+    }
+   ],
+   "bytes": 10827726,
+   "tree_sha256": "52988ef69e24de4a0cb5ce035c8ce87da850cd5c2f51361896db1b6851f57be2",
+   "mod_ids": [
+    "JumboTreeIndoorFix"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3774841057",
+   "title": "Weight Reduction - Building Materials & Tools",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "WeightReduction",
+     "src": "mods/3774841057/mods/WeightReduction",
+     "mod_id": "WeightReduction"
+    }
+   ],
+   "bytes": 24146,
+   "tree_sha256": "09473422412ca1dfac1cb77ad1fb2fe46e62250400206d25755932acb4b8ea7d",
+   "mod_ids": [
+    "WeightReduction"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3775549570",
+   "title": "Alice's Weapon Sling",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "alicesWeaponSling",
+     "src": "mods/3775549570/mods/alicesWeaponSling",
+     "mod_id": "alicesWeaponSling"
+    },
+    {
+     "name": "alicesWeaponSlingRadialMenu",
+     "src": "mods/3775549570/mods/alicesWeaponSlingRadialMenu",
+     "mod_id": "alicesWeaponSlingRadialMenu"
+    }
+   ],
+   "bytes": 1399685,
+   "tree_sha256": "ac7162d49e6c49ac7efed5102626ef2891b8917960ae4fd6e74fc663b3c0ebdb",
+   "mod_ids": [
+    "alicesWeaponSling",
+    "alicesWeaponSlingRadialMenu"
+   ],
+   "requires": [
+    "alicesweaponsling"
+   ]
+  },
+  {
+   "workshop_id": "3776182375",
+   "title": "CH Status HUD",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "CHStatusHUD",
+     "src": "mods/3776182375/mods/CHStatusHUD",
+     "mod_id": "CHStatusHUD"
+    }
+   ],
+   "bytes": 3058910,
+   "tree_sha256": "bbf24f64bb79327bcd597345665a5f4aa3b5e6b13e05e4aaf8c6a6752da2ef70",
+   "mod_ids": [
+    "CHStatusHUD"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3777237134",
+   "title": "[B42.20] Auto All - Cook, Medicine, Read, Clean, Rip, Tailoring, Mechanics, Exercise, Reload, Open & Dismantle",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "AutoAll",
+     "src": "mods/3777237134/mods/AutoAll",
+     "mod_id": "AutoAll"
+    }
+   ],
+   "bytes": 2117500,
+   "tree_sha256": "20950c4eed5c12c8435b67ab3d2052feb18aec3a5ac6e3fb0fcb30e17bbf6c90",
+   "mod_ids": [
+    "AutoAll"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3777731571",
+   "title": "Better VoIP",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "BetterVoip",
+     "src": "mods/3777731571/mods/BetterVoip",
+     "mod_id": "BetterVoip"
+    }
+   ],
+   "bytes": 288134,
+   "tree_sha256": "26a391541b3dab1c7e45bbd7eccfd8c7e784389ad0ca01bd070631325128a785",
+   "mod_ids": [
+    "BetterVoip"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3778511497",
+   "title": "Skully's Zombie Collision [B42.20+]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SkullysZombieCollision",
+     "src": "mods/3778511497/mods/SkullysZombieCollision",
+     "mod_id": "SkullysZombieCollision"
+    }
+   ],
+   "bytes": 281781,
+   "tree_sha256": "953d27d97fba24839d1d2e862a289204988beb042f4b896e423b628d63fbff55",
+   "mod_ids": [
+    "SkullysZombieCollision"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3778915544",
+   "title": "Ladder Climb with Animations WIP",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "LadderClimb",
+     "src": "mods/3778915544/mods/LadderClimb",
+     "mod_id": "LadderClimb"
+    }
+   ],
+   "bytes": 553779,
+   "tree_sha256": "eaf3e1ecca063e477fe680081ec9a7c6dcd1803f343a61b73b68ade99ee65f89",
+   "mod_ids": [
+    "LadderClimb"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3779164273",
+   "title": "Improvised Silencers - Build 42.20 Compatibility",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Improvised Silencers",
+     "src": "mods/3779164273/mods/Improvised Silencers",
+     "mod_id": "ImprovisedSilencers"
+    }
+   ],
+   "bytes": 2663015,
+   "tree_sha256": "c552bc9371a9e6dcdb045a35fc4c3bc187b880aedca80b2ec68b13f34e5a07f6",
+   "mod_ids": [
+    "ImprovisedSilencers"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3779315249",
+   "title": "'87 Toyota Corolla AE92",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "87toyotaCorolla",
+     "src": "mods/3779315249/mods/87toyotaCorolla",
+     "mod_id": "87toyotaCorolla"
+    }
+   ],
+   "bytes": 16517249,
+   "tree_sha256": "2e846236a66a64eb4c704edf528f2f0e30e9c85f50f8655483ff44e752ada575",
+   "mod_ids": [
+    "87toyotaCorolla"
+   ],
+   "requires": [
+    "damnlib"
+   ]
+  },
+  {
+   "workshop_id": "3780688809",
+   "title": "Context Menu Cleanup",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ContextMenuCleanup",
+     "src": "mods/3780688809/mods/ContextMenuCleanup",
+     "mod_id": "ContextMenuCleanup"
+    }
+   ],
+   "bytes": 127340,
+   "tree_sha256": "b7c4fcf5e5e1d31795b41d8979e40a76488d9ef22b86c493ed217631897554e3",
+   "mod_ids": [
+    "ContextMenuCleanup"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3782587904",
+   "title": "Brita's B42 Armor Pack",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "BritasArmorPackB42",
+     "src": "mods/3782587904/mods/BritasArmorPackB42",
+     "mod_id": "BritasArmorPackB42"
+    }
+   ],
+   "bytes": 1000790217,
+   "tree_sha256": "8843779bd5bfdfc30086807b8f8856e9765d64a6302aec2b7f134d7405ae4a60",
+   "mod_ids": [
+    "BritasArmorPackB42"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3783433804",
+   "title": "[B42] Nellis Air Force Base",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Nellis Air Force Base",
+     "src": "mods/3783433804/mods/Nellis Air Force Base",
+     "mod_id": "NellisAFB"
+    }
+   ],
+   "bytes": 47692247,
+   "tree_sha256": "c76eb7e18cb9d44a941f2b5070acb1159e30c373c58429450faf611413422d43",
+   "mod_ids": [
+    "NellisAFB"
+   ],
+   "requires": [
+    "melos_tiles_for_miles_pack",
+    "unofficialmapperscommunitytilepack",
+    "vmznew"
+   ]
+  },
+  {
+   "workshop_id": "3788113801",
+   "title": "Trash Clear \u2014 Recycler [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "TrashClear",
+     "src": "mods/3788113801/mods/TrashClear",
+     "mod_id": "TrashClear"
+    }
+   ],
+   "bytes": 264280,
+   "tree_sha256": "08a25c7da43a97d9d22e614b102d672a8c411b9ca2bbcc10d215ea23018a9b32",
+   "mod_ids": [
+    "TrashClear"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3790089095",
+   "title": "Better Corpse Burning",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "BetterCorpseBurning",
+     "src": "mods/3790089095/mods/BetterCorpseBurning",
+     "mod_id": "BetterCorpseBurning"
+    }
+   ],
+   "bytes": 863403,
+   "tree_sha256": "7c7f9acba497383506e5b9590394daa6a022ad138288180c6f84ca34c76fcdbd",
+   "mod_ids": [
+    "BetterCorpseBurning"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3790257898",
+   "title": "[B42 Stable SP/MP] Easy Auto Gate",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "AutoGateRemote",
+     "src": "mods/3790257898/mods/AutoGateRemote",
+     "mod_id": "AutoGateRemote"
+    }
+   ],
+   "bytes": 208612,
+   "tree_sha256": "0b88adcd9c80e9edc42279b885fe0e7b2cb397d95cca750c76fefc488bb80d09",
+   "mod_ids": [
+    "AutoGateRemote"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3793289804",
+   "title": "GPS Cross-Device - ProjectZomboidMap.com",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "PZMCompanion",
+     "src": "mods/3793289804/mods/PZMCompanion",
+     "mod_id": "PZMCompanion"
+    }
+   ],
+   "bytes": 546557,
+   "tree_sha256": "28267d4c23e9f02598378329e6b8fd04086b4865793f28cc4aa15cbbe2796a5e",
+   "mod_ids": [
+    "PZMCompanion"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3794379457",
+   "title": "Better World Map",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "BetterWorldMap",
+     "src": "mods/3794379457/mods/BetterWorldMap",
+     "mod_id": "BetterWorldMap"
+    }
+   ],
+   "bytes": 353481,
+   "tree_sha256": "e6428161bd497698aa1747a7634042d2b59ce34cf0d53408768d8a7028430066",
+   "mod_ids": [
+    "BetterWorldMap"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3794429489",
+   "title": "Skill & Recipe Collector's Shelf",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Tuna_BookCollector",
+     "src": "mods/3794429489/mods/Tuna_BookCollector",
+     "mod_id": "Tuna_BookCollector"
+    }
+   ],
+   "bytes": 1894197,
+   "tree_sha256": "08d12f32a6a04c00360f9474ec8ba7e29ba50dc51db302de4f70819f22a4b198",
+   "mod_ids": [
+    "Tuna_BookCollector"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3795414660",
+   "title": "Fitted Barricades",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "FittedBarricades",
+     "src": "mods/3795414660/mods/FittedBarricades",
+     "mod_id": "FittedBarricades"
+    }
+   ],
+   "bytes": 11714800,
+   "tree_sha256": "4eacb5aaf0bc085bd1ec73a3678452fdd9c4551d8ef3a19f7c7f6b4160052972",
+   "mod_ids": [
+    "FittedBarricades"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3798469977",
+   "title": "My Garage: Professional Storage",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "B42_MyGarage",
+     "src": "mods/3798469977/mods/B42_MyGarage",
+     "mod_id": "B42_MyGarage"
+    }
+   ],
+   "bytes": 1066307,
+   "tree_sha256": "9fdce4bc341ac2caa0aeb90ab926c53116ab6febd18c934c6139e16d2b7cd9ff",
+   "mod_ids": [
+    "B42_MyGarage"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3803984183",
+   "title": "Project A-Life [ALIFE NPCS]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ProjectALifeNPCs",
+     "src": "mods/3803984183/mods/ProjectALifeNPCs",
+     "mod_id": "ProjectALifeNPCs"
+    }
+   ],
+   "bytes": 52862684,
+   "tree_sha256": "a3d5e956007f9f35072585b9eabdc34f0e136fe979f4ec9b283b942b4cc62e62",
+   "mod_ids": [
+    "ProjectALifeNPCs"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3805029439",
+   "title": "Handlebar's Universal Firearms Repair",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "HNDLBR_UniversalMaintenanceKit",
+     "src": "mods/3805029439/mods/HNDLBR_UniversalMaintenanceKit",
+     "mod_id": "HNDLBR_UniversalFirearmsRepair"
+    }
+   ],
+   "bytes": 79048,
+   "tree_sha256": "c0e507669fad9634b376ad0c8e29d8c521837fee5b63228a3400d54e4f0cbfc5",
+   "mod_ids": [
+    "HNDLBR_UniversalMaintenanceKit"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3806164637",
+   "title": "My Garage: Tool Storage Bench [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "MG_ToolStorageBench",
+     "src": "mods/3806164637/mods/MG_ToolStorageBench",
+     "mod_id": "MG_ToolStorageBench"
+    }
+   ],
+   "bytes": 664014,
+   "tree_sha256": "814d099eb522ab21109d9208c981ebd3e329525f9e29ffc99c363b4d3ab5149e",
+   "mod_ids": [
+    "MG_ToolStorageBench"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3806944055",
+   "title": "Project A-Life - Jeem Extension",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ProjectALifeJimmy",
+     "src": "mods/3806944055/mods/ProjectALifeJimmy",
+     "mod_id": "ProjectALifeJimmy"
+    }
+   ],
+   "bytes": 8795451,
+   "tree_sha256": "bbfd1af4f1da07274fbbe7fb8358af957e3b366e58a2f3b6b8251c7187b641ac",
+   "mod_ids": [
+    "ProjectALifeJimmy"
+   ],
+   "requires": [
+    "projectalifenpcs"
+   ]
+  },
+  {
+   "workshop_id": "3809306528",
+   "title": "Project Viewpoint",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "Viewpoint",
+     "src": "mods/3809306528/mods/Viewpoint",
+     "mod_id": "Viewpoint"
+    }
+   ],
+   "bytes": 34152637,
+   "tree_sha256": "aa09743601a8f4fa9ca6b7e5e9f6c857f4b86b7005566fc98b495920c40d1a5c",
+   "mod_ids": [
+    "Viewpoint"
+   ],
+   "requires": [
+    "zombiebuddy"
+   ]
+  },
+  {
+   "workshop_id": "3809762635",
+   "title": "Throwables 2.0 (BETA)",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Throwables",
+     "src": "mods/3809762635/mods/Throwables",
+     "mod_id": "Throwables"
+    }
+   ],
+   "bytes": 360538,
+   "tree_sha256": "ccb4f5c454c7fb833196b7765627a1cfe7b2525e9a4a90a24efb229d5b308a71",
+   "mod_ids": [
+    "Throwables"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3810302175",
+   "title": "6282 3D models for Viewpoint [sour_kisel]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "PZVoxelStudioViewpoint",
+     "src": "mods/3810302175/mods/PZVoxelStudioViewpoint",
+     "mod_id": "PZVoxelStudioViewpoint"
+    }
+   ],
+   "bytes": 246745946,
+   "tree_sha256": "481d1a16147fc4b15d3fd7299607569eabe9bcce18e6c2d4057225907d7b064e",
+   "mod_ids": [
+    "PZVoxelStudioViewpoint"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3810988454",
+   "title": "A-Life - Guns of Marz Loadouts [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ALifeGunsOfMarz",
+     "src": "mods/3810988454/mods/ALifeGunsOfMarz",
+     "mod_id": "ALifeGunsOfMarz"
+    }
+   ],
+   "bytes": 17604,
+   "tree_sha256": "c0a317173c8feeb522908c0d14cf253e6ad3c98d5c01b77b88ee8d04baeb3b4d",
+   "mod_ids": [
+    "ALifeGunsOfMarz"
+   ],
+   "requires": [
+    "gunsofmarz",
+    "projectalifenpcs"
+   ]
+  },
+  {
+   "workshop_id": "3811256204",
+   "title": "Project Viewpoint QOL",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "ProjectViewpointQOL",
+     "src": "mods/3811256204/mods/ProjectViewpointQOL",
+     "mod_id": "ProjectViewpointQOL"
+    },
+    {
+     "name": "ProjectViewpointQOLControllerSupport",
+     "src": "mods/3811256204/mods/ProjectViewpointQOLControllerSupport",
+     "mod_id": "ProjectViewpointQOLControllerSupport"
+    }
+   ],
+   "bytes": 3355697,
+   "tree_sha256": "a132c9816cf1afb9cf9817452a38c74ccd98c709e4e57d4eab347cfc269d5d73",
+   "mod_ids": [
+    "ProjectViewpointQOL",
+    "ProjectViewpointQOLControllerSupport"
+   ],
+   "requires": [
+    "projectviewpointqol",
+    "viewpoint",
+    "zombiebuddy"
+   ]
+  },
+  {
+   "workshop_id": "3402491515",
+   "title": "Tsar's Common Library B42",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "tsarslib",
+     "src": "mods/3402491515/mods/tsarslib",
+     "mod_id": "tsarslib"
+    }
+   ],
+   "bytes": 10539932,
+   "tree_sha256": "1c674b9458957e919ab4cd40f862333ea8f623b34bd0385bf1976505656fe3bb",
+   "mod_ids": [
+    "tsarslib"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3817413313",
+   "title": "Project Viewpoint - Immersive Driving",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "ImmersiveDriving",
+     "src": "mods/3817413313/mods/ImmersiveDriving",
+     "mod_id": "ImmersiveDriving"
+    }
+   ],
+   "bytes": 128602,
+   "tree_sha256": "166254959e2118f68faaaaba63ec7a2035590b66f100b8995c9b85141ca45b3f",
+   "mod_ids": [
+    "ImmersiveDriving"
+   ],
+   "requires": [
+    "viewpoint",
+    "zombiebuddy"
+   ]
+  },
+  {
+   "workshop_id": "3814398576",
+   "title": "Surface Fix - Project Viewpoint",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "ViewpointSurface",
+     "src": "mods/3814398576/mods/ViewpointSurface",
+     "mod_id": "ViewpointSurface"
+    }
+   ],
+   "bytes": 550325,
+   "tree_sha256": "ae794c36b3b5d7fc5b6570a9fd20efa683453ea0eb15bdef6594f875a561a3f7",
+   "mod_ids": [
+    "ViewpointSurface"
+   ],
+   "requires": [
+    "viewpoint",
+    "zombiebuddy"
+   ]
+  },
+  {
+   "workshop_id": "3811344119",
+   "title": "Light Fix - Project Viewpoint",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "ViewpointLight",
+     "src": "mods/3811344119/mods/ViewpointLight",
+     "mod_id": "ViewpointLight"
+    }
+   ],
+   "bytes": 160248,
+   "tree_sha256": "d71f57853d19d54d1ee04c7d45fa005e3221b7b1c7da122ff058d5aa014ebd2f",
+   "mod_ids": [
+    "ViewpointLight"
+   ],
+   "requires": [
+    "viewpoint",
+    "zombiebuddy"
+   ]
+  },
+  {
+   "workshop_id": "3820965001",
+   "title": "Viewpoint - Visceral",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "Visceral",
+     "src": "mods/3820965001/mods/Visceral",
+     "mod_id": "VisceralViewpoint"
+    }
+   ],
+   "bytes": 809554,
+   "tree_sha256": "2eed9429c003c82c4434fed222202e6e6c9044fbbd00d50ed65f2b177e5b7441",
+   "mod_ids": [
+    "VisceralViewpoint"
+   ],
+   "requires": [
+    "viewpoint",
+    "zombiebuddy"
+   ]
+  },
+  {
+   "workshop_id": "3822854313",
+   "title": "Viewpoint x A-LIFE",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "ViewpointALife",
+     "src": "mods/3822854313/mods/ViewpointALife",
+     "mod_id": "ViewpointALife"
+    }
+   ],
+   "bytes": 141935,
+   "tree_sha256": "84a8539106bc7a3a6cc42d668c81e844aba4e69d49581c1d4878d9e385d75d32",
+   "mod_ids": [
+    "ViewpointALife"
+   ],
+   "requires": [
+    "projectalifenpcs",
+    "viewpoint"
+   ]
+  },
+  {
+   "workshop_id": "3813194971",
+   "title": "Viewpoint - Advanced Throwables",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "ViewpointAdvancedThrowables",
+     "src": "mods/3813194971/mods/ViewpointAdvancedThrowables",
+     "mod_id": "ViewpointAdvancedThrowables"
+    }
+   ],
+   "bytes": 1303847,
+   "tree_sha256": "82ccfc0e4bb3fc36b5110a2a6045965f378e6ad16552503d53620143802d1da4",
+   "mod_ids": [
+    "ViewpointAdvancedThrowables"
+   ],
+   "requires": [
+    "viewpoint",
+    "zombiebuddy"
+   ]
+  },
+  {
+   "workshop_id": "3799596085",
+   "title": "Visible Door Damage [B42 MP] - Viewpoint compatible",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "VisibleDoorDamage",
+     "src": "mods/3799596085/mods/VisibleDoorDamage",
+     "mod_id": "VisibleDoorDamagebyYurik"
+    }
+   ],
+   "bytes": 112889821,
+   "tree_sha256": "9b5f948623d051738bb4712d3a2d8cbff1841697f209c159eb2e44fa5ba4c992",
+   "mod_ids": [
+    "VisibleDoorDamagebyYurik"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3818700431",
+   "title": "Viewpoint\u2019s Models Overhaul",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "ViewpointShelves3D",
+     "src": "mods/3818700431/mods/ViewpointShelves3D",
+     "mod_id": "ViewpointShelves3D"
+    }
+   ],
+   "bytes": 306575360,
+   "tree_sha256": "061a17aa89ce121b63677402a5873b87fb62a3a9cb805e2badef82b0cc5d6232",
+   "mod_ids": [
+    "ViewpointShelves3D"
+   ],
+   "requires": [
+    "viewpoint",
+    "viewpointworkstations3d"
+   ]
+  },
+  {
+   "workshop_id": "3798146388",
+   "title": "[B42MP] Frockin Backstage!",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Frockin Backstage!",
+     "src": "mods/3798146388/mods/Frockin Backstage!",
+     "mod_id": "GanydeBielovzki's Frockin Backstage!"
+    }
+   ],
+   "bytes": 12806757,
+   "tree_sha256": "07ecd30d19c3f52db8a90874bdc1d0e826652fe203bf65a2912c6c529361661e",
+   "mod_ids": [
+    "GanydeBielovzki's Frockin Backstage!"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3827271522",
+   "title": "GarageWorks [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "GarageWorks",
+     "src": "mods/3827271522/mods/GarageWorks",
+     "mod_id": "GarageWorks"
+    },
+    {
+     "name": "GarageWorksSafeRemoval",
+     "src": "mods/3827271522/mods/GarageWorksSafeRemoval",
+     "mod_id": "GarageWorksSafeRemoval"
+    }
+   ],
+   "bytes": 10689479,
+   "tree_sha256": "8b4fbd0931e06f91b987ddf742fa72beb7a4b024584d6ecb9a17baa9339a8d47",
+   "mod_ids": [
+    "GarageWorksSafeRemoval",
+    "GarageWorks"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3814073243",
+   "title": "Zombie Visibility Fix + Stair-O-Vision",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ZombieVisibilityFix",
+     "src": "mods/3814073243/mods/ZombieVisibilityFix",
+     "mod_id": "ZombieVisibilityFix"
+    }
+   ],
+   "bytes": 82475,
+   "tree_sha256": "dac788cd2122375e674aa39c951e93b2c60ff8101279122382d6a30e1c65309e",
+   "mod_ids": [
+    "ZombieVisibilityFix"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3813053718",
+   "title": "Useful Pallets",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "UsefulPallets",
+     "src": "mods/3813053718/mods/UsefulPallets",
+     "mod_id": "UsefulPallets"
+    }
+   ],
+   "bytes": 1767789,
+   "tree_sha256": "39319d744787c6fbcc3f9f710200c960cd4790ca4a91b69eb23dad34226f84ab",
+   "mod_ids": [
+    "UsefulPallets"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3824965917",
+   "title": "ForkLift (Build 42.21+ Update)",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ForkLiftB42Fix",
+     "src": "mods/3824965917/mods/ForkLiftB42Fix",
+     "mod_id": "ForkLiftB42Fix"
+    }
+   ],
+   "bytes": 20920550,
+   "tree_sha256": "a0bacd4bf79e5eb7fa9b88eefb34be3f0f2cdceeff23097f8d66e28dbc2c5c60",
+   "mod_ids": [
+    "ForkLiftB42Fix"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3818189653",
+   "title": "Viewpoint - Visible Loot",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "ViewpointVisibleLoot",
+     "src": "mods/3818189653/mods/ViewpointVisibleLoot",
+     "mod_id": "ViewpointVisibleLoot"
+    }
+   ],
+   "bytes": 188736813,
+   "tree_sha256": "7cdce1406df33065cd8769928d086bca6ef45d83d288fb245edcb81d7d9a828a",
+   "mod_ids": [
+    "ViewpointVisibleLoot"
+   ],
+   "requires": [
+    "pzvoxelstudioviewpoint",
+    "viewpoint"
+   ]
+  },
+  {
+   "workshop_id": "3820183693",
+   "title": "Guns of Marz Extension: Guns of Tien",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "GoMExtensionGunsOfTien",
+     "src": "mods/3820183693/mods/GoMExtensionGunsOfTien",
+     "mod_id": "GoMExtensionGunsOfTien"
+    },
+    {
+     "name": "GoMExtensionGunsOfTienPost93",
+     "src": "mods/3820183693/mods/GoMExtensionGunsOfTienPost93",
+     "mod_id": "GoMExtensionGunsOfTienPost93"
+    }
+   ],
+   "bytes": 10345610,
+   "tree_sha256": "40129d18ad4c4d993350f4dce18d7e80e632d0435fb1219d52007b055a3da91b",
+   "mod_ids": [
+    "GoMExtensionGunsOfTien",
+    "GoMExtensionGunsOfTienPost93"
+   ],
+   "requires": [
+    "gomextensiongunsoftien",
+    "gunsofmarz",
+    "swmg"
+   ]
+  },
+  {
+   "workshop_id": "3816324722",
+   "title": "Attachments UI [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "AttachmentsUI",
+     "src": "mods/3816324722/mods/AttachmentsUI",
+     "mod_id": "AttachmentsUI"
+    }
+   ],
+   "bytes": 1105156,
+   "tree_sha256": "e122e40e2cadd7768e09747f281f5425bbacaef99ceb1db58afcf575ce675ef3",
+   "mod_ids": [
+    "AttachmentsUI"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3811696048",
+   "title": "A-Life Faction Relations",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ALifeRelations",
+     "src": "mods/3811696048/mods/ALifeRelations",
+     "mod_id": "ALifeRelations"
+    }
+   ],
+   "bytes": 81971,
+   "tree_sha256": "220300891150ca53b9df0cf90e3e26ea2be28d6a39f7852abe36a242b5b14930",
+   "mod_ids": [
+    "ALifeRelations"
+   ],
+   "requires": [
+    "projectalifenpcs"
+   ]
+  },
+  {
+   "workshop_id": "3815019204",
+   "title": "Project Viewpoint - KI5 Vehicle Parts Fix",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "ProjectViewpoint-KI5VehiclePartsFix",
+     "src": "mods/3815019204/mods/ProjectViewpoint-KI5VehiclePartsFix",
+     "mod_id": "ProjectViewpointKI5VehiclePartsFix"
+    }
+   ],
+   "bytes": 179498,
+   "tree_sha256": "fc87000f4d1431766c9cf099630d6ae74253d4d8a2412e9258f4473b0540fb62",
+   "mod_ids": [
+    "ProjectViewpointKI5VehiclePartsFix"
+   ],
+   "requires": [
+    "viewpoint",
+    "zombiebuddy"
+   ]
+  },
+  {
+   "workshop_id": "3821525282",
+   "title": "Character Texture VRAM Leak Fix [ZombieBuddy]",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "SmartTextureLeakFix",
+     "src": "mods/3821525282/mods/SmartTextureLeakFix",
+     "mod_id": "SmartTextureLeakFix"
+    }
+   ],
+   "bytes": 25508,
+   "tree_sha256": "faa789b54527cf8024743db1f99b2a0f499b80533c00d8ab23d139c033e623ad",
+   "mod_ids": [
+    "SmartTextureLeakFix"
+   ],
+   "requires": [
+    "zombiebuddy"
+   ]
+  },
+  {
+   "workshop_id": "3639628777",
+   "title": "Burd's Survival Journals (B41/42)",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "BurdSurvivalJournals",
+     "src": "mods/3639628777/mods/BurdSurvivalJournals",
+     "mod_id": "BurdSurvivalJournals"
+    }
+   ],
+   "bytes": 23017589,
+   "tree_sha256": "bf915c72031179099a47518a283aabb6ca0a7f6dd820088bcacf3d70f6d41861",
+   "mod_ids": [
+    "BurdSurvivalJournals"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3828755546",
+   "title": "Viewpoint's Workstations Overhaul",
+   "layer": "client",
+   "folders": [
+    {
+     "name": "ViewpointWorkstations3D",
+     "src": "mods/3828755546/mods/ViewpointWorkstations3D",
+     "mod_id": "ViewpointWorkstations3D"
+    }
+   ],
+   "bytes": 44607071,
+   "tree_sha256": "e6caf1cf44b5f70ccc2a700f4f20056cc6e0b65d2eefd154c0c0e1a6b315ac20",
+   "mod_ids": [
+    "ViewpointWorkstations3D"
+   ],
+   "requires": [
+    "viewpoint"
+   ]
+  },
+  {
+   "workshop_id": "2313387159",
+   "title": "Better Sorting",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "BetterSorting",
+     "src": "mods/2313387159/mods/BetterSorting",
+     "mod_id": "BetterSortCC"
+    }
+   ],
+   "bytes": 1823379,
+   "tree_sha256": "0a6035be38f0d08eaf289cc9451230bd107e33e8e98682821b4cb59f0c951173",
+   "mod_ids": [
+    "BetterSortCC"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2950902979",
+   "title": "Equipment UI - Paper Doll Equipment Interface [DISCONTINUED]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "EquipmentUI",
+     "src": "mods/2950902979/mods/EquipmentUI",
+     "mod_id": "EQUIPMENT_UI"
+    }
+   ],
+   "bytes": 491751,
+   "tree_sha256": "f33889fe482302c9b7b95686e4ad4f79cceb8f38ed0e100f6b2acba4117039db",
+   "mod_ids": [
+    "EQUIPMENT_UI"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2650547917",
+   "title": "Manage Containers",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ManageContainers",
+     "src": "mods/2650547917/mods/ManageContainers",
+     "mod_id": "manageContainers"
+    }
+   ],
+   "bytes": 1364504,
+   "tree_sha256": "e0bd5161361c91234b2a00e82de69b5e06298fe27e5e39ac86f479b6fcf4349e",
+   "mod_ids": [
+    "manageContainers"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2883755057",
+   "title": "41.78+ Propane Torch Fix [B42 Supported]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "41.78+ BlowTorch Fix",
+     "src": "mods/2883755057/mods/41.78+ BlowTorch Fix",
+     "mod_id": "UBPropFix"
+    }
+   ],
+   "bytes": 44898,
+   "tree_sha256": "6d610a5295ca53ff6004d6e432261d3e34faef38e28a56499e32c5bfc1a37b90",
+   "mod_ids": [
+    "UBPropFix"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2940354599",
+   "title": "Fitness & Workout Overhaul",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "FWO Fitness Workout Overhaul",
+     "src": "mods/2940354599/mods/FWO Fitness Workout Overhaul",
+     "mod_id": "FWOFitnessWorkoutOverhaul"
+    },
+    {
+     "name": "FWO Treadmill & BenchPress",
+     "src": "mods/2940354599/mods/FWO Treadmill & BenchPress",
+     "mod_id": "FWOBenchPressTreadmill"
+    }
+   ],
+   "bytes": 12371517,
+   "tree_sha256": "1ddef3f00cdaff11b04c6fd1f525d4ca64cd8114b54c865f88f5ae3b592b52e3",
+   "mod_ids": [
+    "FWOBenchPressTreadmill",
+    "FWOFitnessWorkoutOverhaul"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3119788162",
+   "title": "42.21 | Every Texture Optimized",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Every Texture Optimized",
+     "src": "mods/3119788162/mods/Every Texture Optimized",
+     "mod_id": "ETO_B"
+    },
+    {
+     "name": "Every Texture Optimized Maximum Performance",
+     "src": "mods/3119788162/mods/Every Texture Optimized Maximum Performance",
+     "mod_id": "ETO_P"
+    }
+   ],
+   "bytes": 269065394,
+   "tree_sha256": "71a6ab944fa51e01470c2db7fead22fbdb1eaec02a7d57ffb2f7469d83ee6a24",
+   "mod_ids": [
+    "ETO_B",
+    "ETO_P"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3306168142",
+   "title": "Condition On Dash",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "ConditionOnDash",
+     "src": "mods/3306168142/mods/ConditionOnDash",
+     "mod_id": "ConditionOnDash"
+    }
+   ],
+   "bytes": 34352,
+   "tree_sha256": "5c163765dd53dc4fd4363f6eeb534246aba2a87b747d52899e659709ed2d2c34",
+   "mod_ids": [
+    "ConditionOnDash"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3006882690",
+   "title": "[B41&B42] Repair Wall",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "[K] Repair Wall",
+     "src": "mods/3006882690/mods/[K] Repair Wall",
+     "mod_id": "[K] Repair Wall"
+    }
+   ],
+   "bytes": 183542,
+   "tree_sha256": "510a8ebad9506777ef0dbede877094eadd23a7b6a905f9047b26bf84f7313f7d",
+   "mod_ids": [
+    "KAMER_RepairWall"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3576056135",
+   "title": "Better Generator Info",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Better Generator Info",
+     "src": "mods/3576056135/mods/Better Generator Info",
+     "mod_id": "BetterGeneratorInfo"
+    }
+   ],
+   "bytes": 5104085,
+   "tree_sha256": "66ee1b646e9f965b443a9691e3467227f7b2afe1df0792a358a0262dd60402b9",
+   "mod_ids": [
+    "BetterGeneratorInfo"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3754850813",
+   "title": "[B42] Diederiks Tile Palooza",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Diederiks_tile_Palooza",
+     "src": "mods/3754850813/mods/Diederiks_tile_Palooza",
+     "mod_id": "Diederiks Tile Palooza"
+    }
+   ],
+   "bytes": 127215924,
+   "tree_sha256": "4707b5353d90a4d8f17c186ba78099f83970e74a54d78bf68ab3f60464f097a1",
+   "mod_ids": [
+    "Diederiks Tile Palooza"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3754850359",
+   "title": "[B42] Dylan's tiles",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "DylansTiles",
+     "src": "mods/3754850359/mods/DylansTiles",
+     "mod_id": "DylansTiles"
+    }
+   ],
+   "bytes": 24866857,
+   "tree_sha256": "16e8c444310fd0a93a3d10d0f5ded208cc32664f808be97cb8ce7150aa0c91c8",
+   "mod_ids": [
+    "DylansTiles"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3754848589",
+   "title": "[B42] throttlekitty's tiles",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "tkTiles_01",
+     "src": "mods/3754848589/mods/tkTiles_01",
+     "mod_id": "tkTiles_01"
+    }
+   ],
+   "bytes": 19233384,
+   "tree_sha256": "299e79d42651a3d976c3a588c337d256dcae9395d676aa47d75be78ff9f850cc",
+   "mod_ids": [
+    "tkTiles_01"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2872461779",
+   "title": "Muldraugh - West outskirts Shipping Company.",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Muldraugh-Westoutskirts ShippingCo",
+     "src": "mods/2872461779/mods/Muldraugh-Westoutskirts ShippingCo",
+     "mod_id": "Muldraugh-Westoutskirts ShippingCo"
+    }
+   ],
+   "bytes": 11001521,
+   "tree_sha256": "ccc3304542f598198d097d86520b16a466ba5b753314687dcd80fb84a7698c31",
+   "mod_ids": [
+    "Muldraugh-Westoutskirts ShippingCo (42)"
+   ],
+   "requires": [
+    "diederiks tile palooza",
+    "dylanstiles",
+    "tktiles_01"
+   ]
+  },
+  {
+   "workshop_id": "3772052709",
+   "title": "Spawn Selector [B42 Stable]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "SpawnSelector",
+     "src": "mods/3772052709/mods/SpawnSelector",
+     "mod_id": "SpawnSelector"
+    }
+   ],
+   "bytes": 577002,
+   "tree_sha256": "662ef5ff783357502a0cd1d38905d94318acf65dc7ea79d8bbc3f6d5da6a00ad",
+   "mod_ids": [
+    "SpawnSelector"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3392001801",
+   "title": "[42.20MP] Excavation - Basement Expansion",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Excavation",
+     "src": "mods/3392001801/mods/Excavation",
+     "mod_id": "Excavation"
+    }
+   ],
+   "bytes": 4102549,
+   "tree_sha256": "d2bcd62c80027f283b8f0034466d8983b64ca75e185f3fa871c722ade2fbda30",
+   "mod_ids": [
+    "Excavation"
+   ],
+   "requires": [
+    "starlitlibrary"
+   ]
+  },
+  {
+   "workshop_id": "3558839307",
+   "title": "Legendary DuffelBag",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "LegendaryDuffelbag",
+     "src": "mods/3558839307/mods/LegendaryDuffelbag",
+     "mod_id": "LDB42"
+    }
+   ],
+   "bytes": 21161325,
+   "tree_sha256": "d7e5c84c28ffde8789962026de12a01aad8cb385c931b53b6d5f3a1d600f6f48",
+   "mod_ids": [
+    "LDB42"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2946364542",
+   "title": "Search Containers",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "Search Containers",
+     "src": "mods/2946364542/mods/Search Containers",
+     "mod_id": "SearchContainers"
+    }
+   ],
+   "bytes": 1771438,
+   "tree_sha256": "b1f778e98d03a7466b5c41114eab2d0f2e43a1dbb76a6d87166f9680db68b478",
+   "mod_ids": [
+    "SearchContainers"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3785740658",
+   "title": "Fence Sheets",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "FenceSheets",
+     "src": "mods/3785740658/mods/FenceSheets",
+     "mod_id": "FenceSheets"
+    }
+   ],
+   "bytes": 1510399,
+   "tree_sha256": "dd90d47f705b8a5c928bbbd7a745bd2eb016a53316107d0557374aa91f7628ff",
+   "mod_ids": [
+    "FenceSheets"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "2211423190",
+   "title": "Axe's Recrafting [B42]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "AxesRecrafting",
+     "src": "mods/2211423190/mods/AxesRecrafting",
+     "mod_id": "AxesRecrafting"
+    }
+   ],
+   "bytes": 30331,
+   "tree_sha256": "2714e93d9a72a06d4cb72a31ab4c98cd2a07694d7c5162223b3f280c0b2a1ad6",
+   "mod_ids": [
+    "AxesRecrafting"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3765689485",
+   "title": "Auto Key Rings B42.20 [MP]",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "AutoKeyRing",
+     "src": "mods/3765689485/mods/AutoKeyRing",
+     "mod_id": "AutoKeyRing"
+    }
+   ],
+   "bytes": 13635,
+   "tree_sha256": "94c5a156ce3dd6dcd53fc7746bdd155ad53bdfa6137e8af6d157d6ce5df6efbd",
+   "mod_ids": [
+    "AutoKeyRing"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "CommonSenseReborn",
+   "title": "Common Sense Reborn",
+   "layer": "base",
+   "folders": [
+    {
+     "name": "CommonSenseReborn",
+     "src": "mods/CommonSenseReborn",
+     "mod_id": "CommonSenseReborn"
+    }
+   ],
+   "bytes": 31282037,
+   "tree_sha256": "ba02d5d4a2bdffdc63bea2d85c9429b477f3dff1a8638dd69eeea2c669f44b2d",
+   "mod_ids": [
+    "CommonSenseReborn"
+   ],
+   "requires": []
+  },
+  {
+   "workshop_id": "3823866661",
+   "title": "VPMetal (Mac arm64 Metal renderer)",
+   "layer": "client",
+   "platforms": [
+    "darwin/arm64"
+   ],
+   "folders": [
+    {
+     "name": "VPMetal",
+     "src": "mods/3823866661/mods/VPMetal",
+     "mod_id": "VPMetal"
+    }
+   ],
+   "bytes": 3473041,
+   "tree_sha256": "f1b4dad4e1133cf43d74050e367660679d75d46f55db77370b7247fe1e464276",
+   "mod_ids": [
+    "VPMetal"
+   ],
+   "requires": [
+    "viewpoint",
+    "zombiebuddy"
+   ]
+  }
+ ]
+}
